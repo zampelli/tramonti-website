@@ -1,0 +1,94 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-image: url(/img/IvoryPaper.png);
+}
+
+.icon-menu {
+  width: 30px;
+}
+
+.container {
+  text-align: center;
+  padding: .8em;
+}
+
+.container .logo {
+  width: 100px;
+  padding: .6em;
+}
+
+.container ul, li, a {
+  list-style: none;
+  text-decoration: none;
+  color: #666;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  position: fixed;
+  width: 60%;
+  top: 0;
+  right: 0;
+  text-align: left;
+  background: rgb(36, 41, 44);
+  height: 100%;
+  z-index: 7;
+  padding-top: 3em; 
+}
+
+nav ul li a {
+  color: ivory;
+  display: block;
+  width: 100%;
+  padding: 1em 2em;
+  background-color: rgb(49, 55, 59);
+}
+
+.exit-btn {
+  margin: 1em;
+  
+  padding: 0 1.4em;
+}
+
+
+
+.hide-mobile {
+  display: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-content {
+  text-align: center;
+}
+
+.main-content .main-logo {
+   width: 90%;
+   margin-top: 30%;
+ }
+
+.main-content .icons, img {
+  padding: 0 0.8em;
+} 
+
+.main-content img {
+  width: 36px;
+}
+
+.main-content .icons, .scroll-down {
+  margin-top: 30%;
+}
+
+
+
+
+
+
+
+

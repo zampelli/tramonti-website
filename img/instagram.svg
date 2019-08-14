@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30.688" height="30.688" viewBox="0 0 30.688 30.688">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.002" x2="0.5" y2="1.148" gradientUnits="objectBoundingBox">
+      <stop offset="0.097" stop-color="#ffd879"/>
+      <stop offset="0.154" stop-color="#fccb76"/>
+      <stop offset="0.258" stop-color="#f5aa6c"/>
+      <stop offset="0.398" stop-color="#e9755e"/>
+      <stop offset="0.449" stop-color="#e45f58"/>
+      <stop offset="0.679" stop-color="#d22a9c"/>
+      <stop offset="1" stop-color="#6968df"/>
+    </linearGradient>
+  </defs>
+  <g id="iconfinder_Popular_Social_Media-08_2329265" transform="translate(-8.656 -8.656)">
+    <g id="Icons_8_">
+      <g id="Group_110" data-name="Group 110">
+        <circle id="Ellipse_2" data-name="Ellipse 2" cx="15.344" cy="15.344" r="15.344" transform="translate(8.656 8.656)" fill="url(#linear-gradient)"/>
+        <g id="Group_108" data-name="Group 108">
+          <path id="Path_21" data-name="Path 21" d="M24,27.715A3.715,3.715,0,1,1,27.716,24,3.72,3.72,0,0,1,24,27.715Zm0-6.431A2.715,2.715,0,1,0,26.716,24,2.718,2.718,0,0,0,24,21.285Z" fill="#fff"/>
+        </g>
+        <circle id="Ellipse_3" data-name="Ellipse 3" cx="0.462" cy="0.462" r="0.462" transform="translate(27.786 19.429)" fill="#fff"/>
+        <g id="Group_109" data-name="Group 109">
+          <path id="Path_22" data-name="Path 22" d="M27.2,31.264H20.8A4.071,4.071,0,0,1,16.735,27.2V20.8A4.071,4.071,0,0,1,20.8,16.735h6.4A4.071,4.071,0,0,1,31.265,20.8v6.4A4.071,4.071,0,0,1,27.2,31.264ZM20.8,17.735A3.071,3.071,0,0,0,17.735,20.8v6.4A3.071,3.071,0,0,0,20.8,30.264h6.4A3.071,3.071,0,0,0,30.265,27.2V20.8A3.071,3.071,0,0,0,27.2,17.735Z" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
