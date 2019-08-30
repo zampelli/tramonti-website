@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="302" height="90" viewBox="0 0 302 90">
+  <g id="welcome_header" data-name="welcome header" transform="translate(-47 -811)">
+    <text id="Welcome" transform="translate(49 811)" fill="#7ea94b" font-size="64" font-family="GreatVibes-Regular, Great Vibes"><tspan x="0" y="54">Welcome</tspan></text>
+    <text id="To" transform="translate(164 867)" fill="#94856f" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="12">To</tspan></text>
+    <text id="Tramonti" transform="translate(181 867)" fill="#a9232a" font-size="34" font-family="Copperplate"><tspan x="0" y="26">Tramonti</tspan></text>
+  </g>
+</svg>
