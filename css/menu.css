@@ -20,7 +20,7 @@ i {
 .catg-text{
   margin-top: 140px;
   font-family: 'Cinzel', serif;
-  font-size: 2.6rem;
+  font-size: 2.4rem;
   letter-spacing: 4px;
   color: #A9232A;
 }
@@ -45,7 +45,7 @@ nav {
 .nav-links {
   position: fixed;
   right: 0;
-  top: 2px;
+  top: -2vh;
   width: 50%;
   height: 200vh;
   background: rgb(255, 255, 255);

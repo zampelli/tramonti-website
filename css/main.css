@@ -386,8 +386,8 @@ footer {
 
   @media only screen and (max-height: 812px) {
     .main-logo {
-      margin-top: -100px;
-      width: 400px;
+      margin-top: -80px;
+      width: 340px;
     }
     .section{
       margin-top: -10%;
