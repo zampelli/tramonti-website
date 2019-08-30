@@ -98,8 +98,8 @@ nav {
 }
 
 .main-logo {
-  margin-top: -140px;
-  width: 420px;
+  margin-top: -50px;
+  width: 340px;
 }
 
 .icons {
@@ -383,6 +383,16 @@ footer {
     height: 240px;
    } 
   }
+
+  @media only screen and (max-height: 812px) {
+    .main-logo {
+      margin-top: -100px;
+      width: 400px;
+    }
+    .section{
+      margin-top: -10%;
+    }
+  } 
 
   @media only screen and (min-width: 768px) {
   
