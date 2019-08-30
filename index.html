@@ -14,133 +14,134 @@
   <script
     type="text/javascript"> (function () { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
   <!-- Css stylesheet -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="/css/test.css">
 
   <title>Tramonti</title>
 </head>
 
 <body>
-  <div class="container">
 
-    <nav>
-      <div class="logo">
-        <a href="#home"><img src="/img/navBar tramontiLogo.png" alt=""></a>
+ <div class="wrapper">
+  <nav>
+    <div class="logo">
+      <a href="#home"><img src="/img/navBar tramontiLogo.png" alt=""></a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/menu.html">Menu</a></li>
+      <li><a href="/wine-list.html">Wine List</a></li>
+      <li class="hide-mobile"><a href="#about">About</a></li>
+      <li class="hide-desktop"><a href="#">Contact</a></li>
+      <li><a href="https://www.facebook.com/tramontisantacruz"><i class="fac fab fa-facebook-f "></i></a></li>
+      <li><a href="https://www.instagram.com/tramonti_santacruz/"><i class="insta fab fa-instagram "></i></a></li>
+      <li><a href="https://goo.gl/maps/stg311yP5R26osiU8"><i class="map fas fa-map-marker-alt "></i></a></li>
+    </ul>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+
+  <section class="home" id="Home">
+    <header>
+      <div class="logo-img">
+        <img src="/img/logo tramonti 2018.png" alt="Tramonti Logo" class="main-logo">
       </div>
-      <ul class="nav-links">
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="/menu.html">Menu</a></li>
-        <li><a href="/wine-list.html">Wine List</a></li>
-        <li class="hide-mobile"><a href="#about">About</a></li>
-        <li class="hide-desktop"><a href="#">Contact</a></li>
-        <li><a href="https://www.facebook.com/tramontisantacruz"><i class="fac fab fa-facebook-f "></i></a></li>
-        <li><a href="https://www.instagram.com/tramonti_santacruz/"><i class="insta fab fa-instagram "></i></a></li>
-        <li><a href="https://goo.gl/maps/stg311yP5R26osiU8"><i class="map fas fa-map-marker-alt "></i></a></li>
-      </ul>
-      <div class="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
+      <br>
+      <br>
+      <div class="icons hide-desktop fade-in">
+        <a href="https://goo.gl/maps/stg311yP5R26osiU8"><img src="img/location.svg" alt="Loacation"></a>
+        <a href="https://www.facebook.com/tramontisantacruz"><img src="img/facebook.svg" alt="Facebook"></a>
+        <a href="tel:1-831-426-7248"><img src="img/call icon.svg" alt="Call"></a>
+        <a href="https://www.instagram.com/tramonti_santacruz/"><img src="img/instagram.svg" alt="Instagram"></a>
       </div>
-    </nav>
 
-    <section class="home" id="Home">
-      <header>
-        <div class="logo-img">
-          <img src="/img/logo tramonti 2018.png" alt="Tramonti Logo" class="main-logo">
-        </div>
-        <br>
-        <br>
-        <div class="icons hide-desktop fade-in">
-          <a href="https://goo.gl/maps/stg311yP5R26osiU8"><img src="img/location.svg" alt="Loacation"></a>
-          <a href="https://www.facebook.com/tramontisantacruz"><img src="img/facebook.svg" alt="Facebook"></a>
-          <a href="tel:1-831-426-7248"><img src="img/call icon.svg" alt="Call"></a>
-          <a href="https://www.instagram.com/tramonti_santacruz/"><img src="img/instagram.svg" alt="Instagram"></a>
-        </div>
+      <div class="scroll-down fade-in">
+        <a href="#welcome"><img class="scroll" src="/img/circle-arrow-down.svg" alt="Scroll Down"></a>
+      </div>
+    </header>
+  </section>
 
-        <div class="scroll-down fade-in">
-          <a href="#welcome"><img class="scroll" src="/img/circle-arrow-down.svg" alt="Scroll Down"></a>
-        </div>
-      </header>
-    </section>
+  <section class="section" id="welcome">
+    <div class="content">
+      <div class="content-text">
+        <h1>Welcome</h1>
+        <h2>Tramonti</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda exercitationem officia autem expedita.
+          Impedit aliquid distinctio fuga blanditiis! Reprehenderit, ducimus voluptatem sequi facere unde distinctio
+          quis perferendis minima. Impedit nostrum ad excepturi numquam, laboriosam tenetur?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero iusto natus debitis aspernatur! Labore
+          ducimus sed voluptatem repellat praesentium sapiente?</p>
+        <ul class="social hide-mobile">
+          <li><a href="#"><i class="fac fab fa-facebook-f "></i></a></li>
+          <li><a href="#"><i class="insta fab fa-instagram "></i></a></li>
+          <li><a href="#"><i class="map fas fa-envelope"></i></a></li>
+        </ul>
+      </div>
+      <div class="content-img">
+        <img alt="dining room" name="slide" width="460" height="380" class="slide-img">
+      </div>
+    </div>
+  </section>
 
-    <section class="section" id="welcome">
-      <div class="content">
-        <div class="content-text">
-          <img class="svg-welcome" src="/img/welcome header.svg" alt="welcome">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda exercitationem officia autem expedita.
-            Impedit aliquid distinctio fuga blanditiis! Reprehenderit, ducimus voluptatem sequi facere unde distinctio
-            quis perferendis minima. Impedit nostrum ad excepturi numquam, laboriosam tenetur?</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero iusto natus debitis aspernatur! Labore
-            ducimus sed voluptatem repellat praesentium sapiente?</p>
-          <ul class="social hide-mobile">
-            <li><a href="#"><i class="fac fab fa-facebook-f "></i></a></li>
-            <li><a href="#"><i class="insta fab fa-instagram "></i></a></li>
-            <li><a href="#"><i class="map fas fa-envelope"></i></a></li>
+  <section class="section about" id="about">
+    <div class="about-content">
+      <h1>About</h1>
+      <h2>Us</h2>
+      <div class="p-content">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda exercitationem officia autem expedita.
+          Impedit aliquid distinctio fuga blanditiis! Reprehenderit, ducimus voluptatem sequi facere unde distinctio
+          quis perferendis minima. Impedit nostrum ad excepturi numquam, laboriosam tenetur?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, aliquid! Enim corrupti odio quidem,
+          architecto error dolore, cupiditate perspiciatis debitis eveniet, ut assumenda? Autem impedit doloremque
+          sunt alias nobis hic?</p>
+      </div>
+      <iframe title="maps" class="maps"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3187.755682110197!2d-122.00981544887316!3d36.967891479815755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e6aa4e5dfe6b3%3A0x42963c7cb6458b9a!2sTramonti!5e0!3m2!1sen!2sus!4v1566326390365!5m2!1sen!2sus"
+        width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section left">
+        <div class="quick-links">
+          <h1>Quick Links</h1>
+          <ul>
+            <a href="/index.html">
+              <li>Home</li>
+            </a>
+            <a href="/menu.html">
+              <li>Menu</li>
+            </a>
+            <a href="/wine-list.html">
+              <li>Wine List</li>
+            </a>
+            <a href="/index.html#about">
+              <li>About</li>
+            </a>
           </ul>
         </div>
-        <div class="content-img">
-          <img alt="dining room" name="slide" width="460" height="380" class="slide-img">
+      </div>
+      <div class="footer-section right">
+        <h1>Other Locations</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat tenetur debitis quasi odio culpa
+          reprehenderit facilis voluptatibus provident nam quam!</p>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-facebook-f "></i></a>
+          <a href="#"><i class="fab fa-instagram "></i>
+            <a href="#"><i class="fas fa-envelope"></i></a>
         </div>
       </div>
-    </section>
+    </div>
+    <div class="footer-bottom">
+      ® tramonti.com | designed and developed by foxstudio
+    </div>
+  </footer>
 
-
-    <section class="section about" id="about">
-      <div class="about-content">
-        <img class="svg-about" src="/img/about header.svg" alt="about">
-        <div class="p-content">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda exercitationem officia autem expedita.
-            Impedit aliquid distinctio fuga blanditiis! Reprehenderit, ducimus voluptatem sequi facere unde distinctio
-            quis perferendis minima. Impedit nostrum ad excepturi numquam, laboriosam tenetur?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, aliquid! Enim corrupti odio quidem,
-            architecto error dolore, cupiditate perspiciatis debitis eveniet, ut assumenda? Autem impedit doloremque
-            sunt alias nobis hic?</p>
-        </div>
-        <iframe title="maps" class="maps"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3187.755682110197!2d-122.00981544887316!3d36.967891479815755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e6aa4e5dfe6b3%3A0x42963c7cb6458b9a!2sTramonti!5e0!3m2!1sen!2sus!4v1566326390365!5m2!1sen!2sus"
-          width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
-    </section>
-    <footer>
-      <div class="footer-content">
-        <div class="footer-section left">
-          <div class="quick-links">
-            <h1>Quick Links</h1>
-            <ul>
-              <a href="/index.html">
-                <li>Home</li>
-              </a>
-              <a href="/menu.html">
-                <li>Menu</li>
-              </a>
-              <a href="/wine-list.html">
-                  <li>Wine List</li>
-                </a>
-              <a href="/index.html#about">
-                <li>About</li>
-              </a>
-            </ul>
-          </div>
-        </div>
-        <div class="footer-section right">
-          <h1>Other Locations</h1>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat tenetur debitis quasi odio culpa
-            reprehenderit facilis voluptatibus provident nam quam!</p>
-            <div class="footer-social">
-                <a href="#"><i class="fab fa-facebook-f "></i></a>
-                <a href="#"><i class="fab fa-instagram "></i>
-                <a href="#"><i class="fas fa-envelope"></i></a>
-            </div>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        ® tramonti.com | designed and developed by foxstudio
-      </div>
-    </footer>
-  </div>
-  </div>
-  <script src="/js/app.js"></script>
+</div> 
+ <script src="/js/app.js"></script> 
 </body>
 
 </html>
