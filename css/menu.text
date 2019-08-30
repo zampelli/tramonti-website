@@ -271,6 +271,10 @@ footer {
 
 /* Media Queries */
 @media only screen and (max-height: 670px) {
+body {
+  overflow-x: hidden !important;
+  }
+
 .nav-links {
   line-height: 5;
 }

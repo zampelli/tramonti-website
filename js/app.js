@@ -7,6 +7,7 @@
   // toggle nav
   burger.addEventListener('click', () => {
       nav.classList.toggle('nav-active');
+      // nav.style.opacity = '1';
 
   // animate links
       navLinks.forEach((link, index) => {
@@ -48,3 +49,4 @@ function changeImg () {
 }
 
 changeImg()
+
