@@ -19,13 +19,15 @@ i {
 
 .catg-text{
   margin-top: 140px;
-  font-family: 'Cinzel', serif;
+  font-family: 'Signika', serif;
   font-size: 2.4rem;
-  letter-spacing: 4px;
+  letter-spacing: 10px;
+  font-weight: lighter;
   color: #A9232A;
 }
 
 h3 {
+  font-family: "Alef", serif;
   font-size: 1.3rem;
   margin-top: 90px;
 }
@@ -344,7 +346,7 @@ body {
   }
 
   .nav-links {
-    line-height: 5;
+    line-height: 4;
   }
   
   .burger {
