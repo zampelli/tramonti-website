@@ -47,15 +47,13 @@ function changeImg () {
   setTimeout("changeImg()", time);
 }
 
-changeImg()
+changeImg();
 
-// var docWidth = document.documentElement.offsetWidth;
-
-// [].forEach.call(
-//   document.querySelectorAll('*'),
-//   function(el) {
-//     if (el.offsetWidth > docWidth) {
-//       console.log(el);
-//     }
-//   }
-// );
+// logo animation
+const animation = bodymovin.loadAnimation({
+  container: document.getElementById('bm'),
+  renderer: 'svg',
+  loop: false,
+  autoplay: true,
+  path: 'data.json'
+});
