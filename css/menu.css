@@ -166,6 +166,9 @@ nav {
 }
 
 /* special class */
+.hide-mobile {
+  display: none;
+}
 
 /* Footer */
 footer {

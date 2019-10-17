@@ -62,7 +62,7 @@
   color: rgb(78, 78, 78);
 }
 
-.right {
+.rightt {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -128,8 +128,18 @@
 }
 
 @media (max-width: 414px) {
+  .modal-content {
+    width: 100%;
+  }
   .text-content > h1 {
-    font-size: 3.2rem;
+    font-size: 3rem;
+    font-family: 'Great vibes', cursive;
+  }
+  .text-content > h3 {
+    font-size: 1.4rem;
+  }
+  .text-content > p {
+    font-size: 0.8rem;
   }
   .hide-mobile {
     display: none;

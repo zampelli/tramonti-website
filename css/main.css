@@ -119,6 +119,7 @@ nav {
 
 #bm {
   margin-left: -10px;
+  margin-top: -50px;
 }
 
 
@@ -413,10 +414,10 @@ footer {
    margin-top: 60px;
   }
   .sectionOne {
-   margin-top: 220px;
+   display: none;
   }
   .sectionTwo {
-    height: 100%;
+   display: none;
   }
 }
 
