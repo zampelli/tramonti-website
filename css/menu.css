@@ -5,14 +5,14 @@
 body {
   margin: 0;
   padding: 0;
-  background: url(/img/IvoryPaperLight.png);
+  background: url(/img/ivoryBg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   overflow-x: hidden !important;
   font-family: "Montserrat", sans-serif;
 }
 
-i {
+.i {
   font-size: 20px;
 }
 
@@ -81,12 +81,56 @@ nav {
   opacity: 0;
 } 
 
+.button {
+  background-color: #843454; 
+  border: none;
+  border-radius: 16px;
+  color: rgb(248, 248, 248);
+  padding: 8px 18px;
+  /* width: 120px;
+  height: 34px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+.buttonS {
+  background-color: #D2722F; 
+  border: none;
+  border-radius: 16px;
+  color: rgb(248, 248, 248);
+  padding: 8px 28px;
+  /* width: 120px;
+  height: 34px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+.specialLink {
+  margin: 60px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  color: #D2722F;
+}
+
+.specialLink:hover {
+  color: rgb(210, 93, 47);
+}
+
 .burger div {
   width: 25px;
   height: 2px;
   margin: 5px;
   background-color: rgb(95, 94, 94);
   transition: all 0.3s ease;
+ 
 }
 
 .burger {
@@ -377,7 +421,7 @@ body {
 
   @media only screen and (min-width: 768px) {
   
-    nav {
+    /* nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -393,13 +437,13 @@ body {
       background: none;
       top: 0;
       height: 30px;
-      right: 620px;
+      right: 700px;
       top: 0;
       display: flex;
       flex-direction: row;
       align-items: center; 
       justify-content: space-between;
-      width: 600px;
+      width: 680px;
       padding: 0;
       }
   
@@ -412,20 +456,20 @@ body {
       color: rgb(58, 58, 58);
       letter-spacing: 2px;
       font-family: "Montserrat", sans-serif;
-      }
+      } */
   
       .nav-links a:hover {
         color: #A9232A;
         transition: all .3s ease;
       }
   
-    nav .nav-links li {
+    /* nav .nav-links li {
       list-style: none;
       }
   
     .burger {
         display: none;
-      }
+      } */
   
     .svg-welcome {
         width: 360px;
@@ -457,6 +501,51 @@ body {
     }
   
     @media only screen and (min-width: 1024px) {
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 2vh;
+        }
+    
+      .logo > img {
+        width: 100px;
+        }
+    
+      .nav-links {
+        position: relative;
+        background: none;
+        top: 0;
+        height: 30px;
+        right: 700px;
+        top: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        justify-content: space-between;
+        width: 680px;
+        padding: 0;
+        }
+    
+      .nav-links li {
+          opacity: 1;
+        }
+    
+      .nav-links a {
+        text-decoration: none;
+        color: rgb(58, 58, 58);
+        letter-spacing: 2px;
+        font-family: "Montserrat", sans-serif;
+      }
+
+      nav .nav-links li {
+        list-style: none;
+        }
+    
+      .burger {
+          display: none;
+        }
+
       .show-desktop {
         display: block;
         margin: 0 auto 13% auto;

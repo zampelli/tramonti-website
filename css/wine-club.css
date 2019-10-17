@@ -1,0 +1,20 @@
+body {
+  text-align: center;
+  background-image: url(/img/ivoryBg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: "Great Vibes", cursive;
+  color: #843454; 
+  font-weight: lighter;
+  margin-top: 350px;
+  font-size: 6.4rem;
+}
+
+@media (max-width: 414px) {
+  h1 {
+    margin-top: 160px;
+  }
+}

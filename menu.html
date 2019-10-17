@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Montserrat:400,500|Roboto:400,700&display=swap">
   <link href="https://fonts.googleapis.com/css?family=Alef|Signika&display=swap" rel="stylesheet">
   <!-- Foon awesome -->
   <script
@@ -14,6 +15,7 @@
   <!-- Css stylesheet -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="/css/menu.css">
+  <link rel="stylesheet" href="/css/modal.css">
 
   <title>Tramonti</title>
 </head>
@@ -25,13 +27,14 @@
     </div>
     <ul class="nav-links fade-in">
       <li><a href="/index.html">Home</a></li>
-      <li><a href="/menu.html">Menu</a></li>
       <li><a href="/wine-list.html">Wine List</a></li>
       <li class="hide-mobile"><a href="/index.html#about">About</a></li>
       <li class="hide-desktop"><a href="#">Contact</a></li>
-      <li><a href="https://www.facebook.com/tramontisantacruz"><i class="fac fab fa-facebook-f "></i></a></li>
-      <li><a href="https://www.instagram.com/tramonti_santacruz/"><i class="insta fab fa-instagram "></i></a></li>
-      <li><a href="https://goo.gl/maps/stg311yP5R26osiU8"><i class="map fas fa-map-marker-alt "></i></a></li>
+      <li><a href="#"><button class="buttonS modalBtn">Specials</button></a></li>
+      <li><a href="/wine-club.html"><button class="button">Wine Club</button></a></li>
+      <li><a href="https://www.facebook.com/tramontisantacruz"><i class="fac fab fa-facebook-f i "></i></a></li>
+      <li><a href="https://www.instagram.com/tramonti_santacruz/"><i class="insta fab fa-instagram i "></i></a></li>
+      <li><a href="https://goo.gl/maps/stg311yP5R26osiU8"><i class="map fas fa-map-marker-alt i "></i></a></li>
     </ul>
     <div class="burger">
       <div class="line1"></div>
@@ -40,9 +43,34 @@
     </div>
   </nav>
 
+  <div id="modalSpecial" class="modal">
+      <div class="modal-content">
+        <div class="right">
+          <span class="close-btn"><i class="fas fa-times"></i></span>
+          <span class="edit-btn hide-mobile"><i class="far fa-edit"></i></span>
+        </div>
+        <div class="text-content" contenteditable="">
+          <h1>Specials of the day</h1>
+          <h3>Appetizer Special</h3>
+          <p>Description Item goes here</p>
+          <h3>Pasta Special</h3>
+          <p>Description Item goes here</p>
+          <h3>Meat Special</h3>
+          <p>Description Item goes here</p>
+          <h3>Catch Of The Day</h3>
+          <p>Description Item goes here</p>
+        </div>
+        <div class="center">
+          <button class="modal-btn hide">Submit</button>
+        </div>
+      </div>
+  
+    </div>
+
   <section class="menu">
     <div class="appetizer">
       <h1 class="catg-text">APPETIZER</h1>
+      <p class="specialLink hide-desktop">Tap to see the specials</p>
       <h3>Lorem ipsum dolor sit. &nbsp; <span>gf | vg</span></h3>
       <p>Lorem ipsum dolor sit amet consectetur.</p>
       <h3>Lorem ipsum dolor sit. &nbsp; <span>gf | vg</span></h3>
@@ -216,6 +244,7 @@
     });
   </script>
   <script src="/js/toggle.js"></script>
+  <script src="/js/modal.js"></script>
 </body>
 
 </html>

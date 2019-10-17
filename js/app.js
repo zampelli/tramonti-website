@@ -33,6 +33,10 @@ let time = 3500;
 images[0] = '/img/img1.jpg';
 images[1] = '/img/img2.jpg';
 images[2] = '/img/img3.jpg';
+images[3] = '/img/img4.jpg';
+images[4] = '/img/img5.jpg';
+images[5] = '/img/img6.jpg';
+
 
 //change image
 function changeImg () {
@@ -57,3 +61,6 @@ const animation = bodymovin.loadAnimation({
   autoplay: true,
   path: 'data.json'
 });
+
+
+
