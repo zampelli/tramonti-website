@@ -29,7 +29,24 @@ body {
 h3 {
   font-family: "Alef", serif;
   font-size: 1.3rem;
+  padding: 0 1rem;
   margin-top: 90px;
+  letter-spacing: 6px;
+}
+
+p {
+  color: rgb(82, 82, 82);
+  line-height: 1.6;
+  padding: 0 2rem;
+}
+
+.footer-p {
+  color: rgb(228, 228, 228) !important;
+}
+
+.red {
+  color: #D2722F;
+  font-size: 14px;
 }
 
 span {
@@ -79,6 +96,7 @@ nav {
 
 .nav-links li {
   opacity: 0;
+ 
 } 
 
 .button {
@@ -95,6 +113,7 @@ nav {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
+  outline:none;
 }
 
 .buttonS {
@@ -111,6 +130,7 @@ nav {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
+  outline:none;
 }
 
 .specialLink {
@@ -164,7 +184,9 @@ nav {
   align-items: center;
   text-align: center;
 }
-
+.catg-text {
+  text-align: center;
+}
 /* special class */
 .hide-mobile {
   display: none;
@@ -175,7 +197,7 @@ footer {
   margin-top: 120px;
   background: rgb(49, 49, 49);
   color: rgb(243, 243, 243);
-  height: 520px;
+  height: 80vh;
   position: relative;
 }
 
@@ -189,13 +211,6 @@ footer {
   text-align: center;
 }
 
-/* .left{
-  margin-top: -60px;
-}
-
-.right{
-  margin-top: -60px;
-} */
 
 .footer-section, .right {
   padding-top: 10px;
@@ -205,6 +220,8 @@ footer {
   color: #666666;
   font-family: "Roboto", sans-serif;
 }
+
+
 
 .footer-content .quick-links ul a {
   display: block;
@@ -224,11 +241,6 @@ footer {
   margin-left: 15px;
   transition: all .4s;
 } 
-
-/* .footer-section .contact span {
-  display: block;
-  font-family: "montserrat", sans-serif;
-} */
 
 .footer-section i{
 	background-color:  #33383b;
@@ -353,47 +365,10 @@ body {
   width: 260px;
   height: 200px;
  } 
-
- /* .scroll-down {
-   opacity: 0;
- } */
 }
 
-@media only screen and (max-height: 812px) {
-  #about {
-    padding: 12rem 0;
-  }
-
-  .slide-img {
-    width: 360px;
-    height: 300px;
-  }
-
-  .content-img {
-    padding: 3rem 0;
-  }
-
-  .maps {
-    width: 360px;
-    height: 300px;
-    padding-top: 2rem;
-   }
-
-   footer {
-    height: 560px;
-  } 
-
-  .footer-section > p {
-    padding: 0 0.6rem;
-  }
-  
-}
 
 @media only screen and (max-height: 670px) {
-  .home {
-    margin-top: -60px;
-  }
-
   .nav-links {
     line-height: 4;
   }
@@ -406,73 +381,18 @@ body {
     margin-top: 50px;
     width: 260px;
   }
-  
-  .section{
-     margin-top: 50%;
-   }
-  
-   .slide-img {
-    width: 320px;
-    height: 240px;
-   }
-  
-   .maps {
-    width: 320px;
-    height: 240px;
-   } 
   }
 
   @media only screen and (min-width: 768px) {
+
+    p {
+      padding: 0 6rem;
+    }
   
-    /* nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      min-height: 2vh;
-      }
-  
-    .logo > img {
-      width: 100px;
-      }
-  
-    .nav-links {
-      position: relative;
-      background: none;
-      top: 0;
-      height: 30px;
-      right: 700px;
-      top: 0;
-      display: flex;
-      flex-direction: row;
-      align-items: center; 
-      justify-content: space-between;
-      width: 680px;
-      padding: 0;
-      }
-  
-    .nav-links li {
-        opacity: 1;
-      }
-  
-    .nav-links a {
-      text-decoration: none;
-      color: rgb(58, 58, 58);
-      letter-spacing: 2px;
-      font-family: "Montserrat", sans-serif;
-      } */
-  
-      .nav-links a:hover {
-        color: #A9232A;
-        transition: all .3s ease;
-      }
-  
-    /* nav .nav-links li {
-      list-style: none;
-      }
-  
-    .burger {
-        display: none;
-      } */
+    .nav-links a:hover {
+       color: #A9232A;
+      transition: all .3s ease;
+    }
   
     .svg-welcome {
         width: 360px;
@@ -487,7 +407,11 @@ body {
     }  
   
     footer {
-      height: 320px;
+      height: 60vh;
+    }
+
+    .footer-p {
+      padding: 0 1rem;
     }
   
     .footer-content {
@@ -532,8 +456,8 @@ body {
     
       .nav-links li {
           opacity: 1;
-        }
-    
+      }
+
       .nav-links a {
         text-decoration: none;
         color: rgb(58, 58, 58);
@@ -543,6 +467,7 @@ body {
 
       nav .nav-links li {
         list-style: none;
+        
         }
     
       .burger {
@@ -561,153 +486,43 @@ body {
       .hide-mobile {
         display: block;
       }
-    
-      .main-logo {
-        width: 400px;
-      }
-    
-      .content {
-        display: flex;
+
+      footer {
+        height: 50vh;
       }
 
-      .content-text > h1 {
-        font-size: 4.6rem;
+      .footer-p {
+        padding: 0 2rem;
       }
 
-      .content-text > h2 {
-        font-size: 2rem;
-      }
+    }
 
-      .slide-img {
-       width: 440px;
-       height: 340px;
-       padding-right: 12px;
-      }
-
-      .about-content > h1 {
-        font-size: 4.6rem;
-      }
-
-      .about-content > h2 {
-        font-size: 2rem;
-      }
-    
-      .maps {
-        width: 80%;
-      }
-     
-      .social {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-      }
-  
-      .social li {
-        margin: 20px 20px;
-        list-style: none;
-      }
-  
-      .social li a i {
-        color: #666;
-        font-size: 28px;
+    @media only screen and (min-width: 1220px) {
+      p {
+        padding: 0 10rem;
       }
     }
 
-    @media only screen and (min-width: 1380px) {
-    .content-text > p {
-        font-size: 1.4rem;
-      }
-
-    .about-content > p {
-        font-size: 1.4rem;
-      }
-
-    .content-text > h1 {
-        font-size: 6.4rem;
-      }
-   
-    .content-text > h2 {
-        font-size: 3rem;
-      }
-   
-    .about-content > h1 {
-        font-size: 6.4rem;
-      }
-  
-    .about-content > h2 {
-        font-size: 3rem;
-     } 
-
-     .slide-img {
-      width: 720px;
-      height: 480px;
-      padding-right: 2rem;
+    @media only screen and (min-width: 1580px) {
+      p {
+        padding: 0 20rem
       }
     }
 
     @media only screen and (min-width: 1700px) {
-    .main-logo {
-      width: 480px;
-    }
-
-    .scroll {
-      margin-top: 100px;
-    }
-
-    .content-text {
-      padding: 0 1rem;
-    }
-
-    .content-text > h1 {
-      font-size: 6.4rem;
-    }
-
-    .content-text > h2 {
-      font-size: 3rem;
-    }
-
-    .content-text > h2::before {
-      font-size: 14px;
-    }
-
-    .content-text > p {
-      font-size: 1.4rem;
-    }
-
-    .about-content > h1 {
-      font-size: 6.4rem;
-    }
-
-    .about-content > h2 {
-      font-size: 3rem;
-    }
-
-    .about-content > p {
-      font-size: 1.4rem;
-    }
-
-    .slide-img {
-      width: 720px;
-      height: 480px;
-      padding-right: 4rem;
-      }
-  
     .social li a i {
       margin-top: 20px;
       font-size: 38px;
     } 
 
-    .maps {
-      width: 1480px;
-      height: 580px;
+    footer {
+      height: 50vh;
     }
 
     .footer-section > p {
       padding: 1rem;
-      font-size: 1.6rem;
+      font-size: 1rem;
     }
-    
       
       }
     

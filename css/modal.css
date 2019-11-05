@@ -42,6 +42,7 @@
 .text-content {
   text-align: center;
   padding-bottom: 60px;
+  outline: none;
 }
 
 .text-content > h1 {
@@ -74,12 +75,33 @@
   font-size: 28px;
   color: #adadad;
 }
+.close-log-in {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 28px;
+  color: rgb(235, 235, 235);
+  cursor: pointer;
+  margin-right: -48px;
+}
 
-.edit-btn {
-  font-size: 22px;
-  color: #adadad;
-  padding-left: 16px;
-  margin-top: 2px;
+.close-log-in:hover {
+  font-size: 32px;
+  transition: ease 0.2s;
+  color: #f4f4f4;
+}
+
+
+.edit {
+  color: rgb(43, 44, 45);
+  font-size: 20px;
+  margin-top: -6px;
+  cursor: pointer;
+  
+}
+
+.edit:hover {
+  color: #0f7ec7;
 }
 
 
@@ -102,6 +124,121 @@
   padding-bottom: 20px;
 }
 
+.log-in {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.pops-up {
+  background: rgb(45, 153, 26);
+  width: 100%;
+  height: 3vh;
+  display: none;
+}
+
+.pops-out {
+  background: rgb(153, 26, 37);
+  width: 100%;
+  height: 3vh;
+  display: none;
+}
+
+
+.log-in-pop {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  padding: 0.4rem;
+}
+
+.log-out-pop {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  padding: 0.4rem;
+}
+
+.show {
+  display: block !important;
+}
+
+.close {
+  display: none !important;
+}
+
+
+.modal-log-in {
+ background: url(/img/modal-bg.jpg);
+ z-index: 100;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ padding: 1rem 4rem;
+ width: 500px;
+ top: 50%;
+ left: 50%;
+ position: fixed;
+ transform: translate(-50%,-50%);
+ margin: auto;
+ display: none;
+ box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+ animation-name: modalopen;
+ animation-duration: 0.2s;
+}
+
+.modal-log-in > h1 {
+  color: #0061a1;
+  font-family: "Alef", serif;
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: 4px;
+} 
+
+.modal-log-in input[type = 'email'], .modal-log-in input[type = 'password'] {
+  border: 0;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 1px solid #E64569;
+  padding: 14px 10px;
+  width: 180px;
+  border-radius: 24px;
+  outline: none;
+  transition: 0.24s;
+}
+
+.modal-log-in input[type = 'email']:focus, .modal-log-in input[type = 'password']:focus {
+  width: 200px;
+}
+
+.log-out{
+  color: rgba(209, 17, 17, 0.959);
+  font-size: 21px;
+  padding: 6px 8px 0 22px;
+  cursor: pointer;
+  display: none;
+}
+
+.btn {
+  border: 0;
+  display: block;
+  margin: 50px auto;
+  text-align: center;
+  border: 1px solid #F98809;
+  padding: 14px 40px;
+  border-radius: 24px;
+  outline: none;
+  transition: 0.24s;
+  cursor: pointer;
+}
+
+@keyframes modalopen {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
 .modal-btn {
   margin-top: -26px;
   background-color: #843454; 
@@ -112,6 +249,7 @@
   text-align: center;
   text-decoration: none;
   font-size: 16px;
+  display: none;
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
   outline: none;
@@ -145,5 +283,11 @@
   }
   .hide-mobile {
     display: none;
+  }
+}
+
+@media (min-width: 380px){
+  .text-content > p {
+   line-height: 1.2;
   }
 }

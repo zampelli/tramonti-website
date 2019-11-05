@@ -57,6 +57,8 @@ nav {
   font-family: "Montserrat", sans-serif;
 }
 
+
+
 .button {
   background-color: #843454; 
   border: none;
@@ -68,6 +70,7 @@ nav {
   display: inline-block;
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
+  outline:none;
 }
 
 .fac:hover {
@@ -150,7 +153,7 @@ section {
 /* Welcome Section */
 .content-text > h1 {
   font-family: "Great vibes", sans-serif;
-  font-size: 4.8rem;
+  font-size: 5rem;
   font-weight: lighter;
   color: #7EA94B;
   text-align: center;
@@ -183,9 +186,10 @@ section {
 }
 
 .content-text > p {
-  padding: 1rem;
+  padding: 1rem 3.8rem;
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 .content-img {
@@ -194,9 +198,12 @@ section {
 }
 
 .slide-img {
-  width: 100%;
-  max-width: 780px;
+  width: 460px;
+  /* width: 100%;
+  max-width: 720px; */
 }
+
+
 
 /* About Us */
 .about-content > h1 {
@@ -221,7 +228,8 @@ section {
 .about-content > p {
   padding: 1rem 1.8rem;
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 .maps {
@@ -233,7 +241,7 @@ footer {
   margin-top: 80px;
   background: rgb(49, 49, 49);
   color: rgb(243, 243, 243);
-  height: 440px;
+  height: 60vh;
   position: relative;
 }
 
@@ -254,6 +262,10 @@ footer {
 .footer-content h1 {
   color: #666666;
   font-family: "Roboto", sans-serif;
+}
+
+.footer-p {
+  margin-top: 10px;
 }
 
 .footer-content .quick-links ul a {
@@ -440,6 +452,9 @@ footer {
    .nav-links {
     line-height: 4;
   }
+  .content-text {
+    padding: 1rem 2rem;
+  }
   footer {
     margin-top: 180px;
     height: 460px;
@@ -463,6 +478,9 @@ footer {
    }
   .sectionTwo {
     margin-top: 120px;
+  }
+  .hide-mobile {
+    display: none;
   }
  }
 
@@ -524,7 +542,7 @@ footer {
         color: #A9232A;
         transition: all .3s ease;
       }
-  
+
     /* nav .nav-links li {
       list-style: none;
       }
@@ -536,7 +554,7 @@ footer {
      section {
        height: 100vh;
      } 
-  
+
     .svg-welcome {
         width: 360px;
       }
@@ -548,9 +566,15 @@ footer {
     .social {
       display: none;
     }  
+
+    .slide-img {
+      width: 580px;
+      height: 340px;
+      padding-right: 12px;
+     }
   
     footer {
-      height: 300px;
+      height: 40vh;
     }
   
     .footer-content {
@@ -626,20 +650,26 @@ footer {
       }
     
       .hide-mobile {
-        display: block;
+        display: none;
       }
     
-      .content {
+      /* .content {
         display: flex;
+      } */
+      
+      .content-text {
+        margin-top: 40px;
       }
 
       .content-text > h1 {
-        font-size: 4.6rem;
+        font-size: 5.6rem;
       }
 
       .content-text > p {
-        margin-top: 20px;
-        padding: 0 3rem;
+        margin: 40px 0 40px 0;
+        padding: 0 6rem;
+        font-size: 1rem;
+        line-height: 1.6;
       }
 
       .content-text .svg {
@@ -647,9 +677,9 @@ footer {
       }
 
       .slide-img {
-       width: 460px;
+       width: 580px;
        height: 340px;
-       padding-right: 12px;
+       
       }
 
       .about-content > h1 {
@@ -661,13 +691,49 @@ footer {
       }
 
       .about-content > p {
-        padding: 1rem 3.8rem;
+        padding: 1rem 4rem;
       }
     
       .maps {
         width: 80%;
       }
      
+      /* .social {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+  
+      .social li {
+        margin: 20px 20px;
+        list-style: none;
+      }
+  
+      .social li a i {
+        margin-top: 20px;
+        color: #666;
+        font-size: 22px;
+      } */
+    }
+
+    @media only screen and (min-width: 1224px) {
+      .content {
+        display: flex;
+      }
+
+      .content-text {
+        margin: auto;
+      }
+
+      .content-text > p {
+        margin: 20px 0 20px 0;
+      }
+
+      .hide-mobile{
+        display: block;
+      }
+
       .social {
         display: flex;
         flex-direction: row;
@@ -682,11 +748,19 @@ footer {
   
       .social li a i {
         color: #666;
-        font-size: 28px;
+        font-size: 22px;
+      }
+
+      .slide-img {
+        width: 520px;
+        height: 380px;
       }
     }
 
     @media only screen and (min-width: 1380px) {
+    .content-text {
+      margin: auto;
+    }
     .content-text > p {
         font-size: 1.2rem;
       }
@@ -696,7 +770,8 @@ footer {
       } 
 
     .about-content > p {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
+        padding: 1rem 8rem;
       }
 
     .content-text > h1 {
@@ -721,11 +796,11 @@ footer {
         font-size: 3rem;
      } 
 
-     .slide-img {
+     /* .slide-img {
       width: 720px;
       height: 480px;
       padding-right: 2rem;
-      }
+      } */
     }
 
     @media only screen and (min-width: 1700px) {
@@ -777,15 +852,14 @@ footer {
       padding: 1rem 14rem;
     }
 
-    .slide-img {
+    /* .slide-img {
       width: 780px;
       height: 480px;
       padding-right: 4rem;
-      }
+      } */
   
     .social li a i {
-      margin-top: 20px;
-      font-size: 38px;
+      font-size: 26px;
     } 
 
     .maps {
@@ -795,7 +869,7 @@ footer {
 
     .footer-section > p {
       padding: 1rem;
-      font-size: 1.6rem;
+      font-size: 1rem;
     }
     
       
