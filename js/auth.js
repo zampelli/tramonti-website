@@ -29,6 +29,7 @@ const logOut = document.querySelector(".log-out");
 const modalLogIn = document.querySelector(".modal-log-in");
 const logInPop = document.querySelector('.pops-up');
 const logOutPop = document.querySelector('.pops-out');
+const updatePop = document.querySelector('.update-pop')
 // const content = document.getElementById("modal-content");
 const editable = document.querySelector('.text-content');
 const anotherHide = document.querySelector('.hide');
@@ -48,6 +49,10 @@ subBtn.addEventListener("click", function() {
     thirdItemParagr: thirdDescr.innerText
   };
    ref.child('new-content').update(data);
+   updatePop.style.visibility = 'visible';
+   setTimeout(function (){
+    updatePop.style.visibility = 'hidden';
+  },900);
 });
 
 

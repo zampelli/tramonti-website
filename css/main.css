@@ -456,8 +456,8 @@ footer {
     padding: 1rem 2rem;
   }
   footer {
-    margin-top: 180px;
-    height: 460px;
+    /* margin-top: 180px; */
+    height: 100%;
   }
  }
  
@@ -482,6 +482,9 @@ footer {
   .hide-mobile {
     display: none;
   }
+  footer {
+    height: 100%;
+  } 
  }
 
   @media only screen and (min-width: 768px) {
