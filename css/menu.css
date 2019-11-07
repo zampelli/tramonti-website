@@ -407,7 +407,7 @@ body {
     }  
   
     footer {
-      height: 60vh;
+      height: 100%;
     }
 
     .footer-p {
@@ -487,10 +487,6 @@ body {
         display: block;
       }
 
-      footer {
-        height: 50vh;
-      }
-
       .footer-p {
         padding: 0 2rem;
       }
@@ -515,9 +511,7 @@ body {
       font-size: 38px;
     } 
 
-    footer {
-      height: 50vh;
-    }
+    
 
     .footer-section > p {
       padding: 1rem;

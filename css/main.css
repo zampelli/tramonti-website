@@ -70,6 +70,7 @@ nav {
   display: inline-block;
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
+  cursor: pointer;
   outline:none;
 }
 
@@ -241,7 +242,6 @@ footer {
   margin-top: 80px;
   background: rgb(49, 49, 49);
   color: rgb(243, 243, 243);
-  height: 60vh;
   position: relative;
 }
 
@@ -489,42 +489,6 @@ footer {
 
   @media only screen and (min-width: 768px) {
   
-    /* nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      min-height: 2vh;
-      }
-  
-    .logo > img {
-      width: 100px;
-      }
-  
-    .nav-links {
-      position: relative;
-      background: none;
-      top: 0;
-      height: 30px;
-      right: 620px;
-      top: 0;
-      display: flex;
-      flex-direction: row;
-      align-items: center; 
-      justify-content: space-between;
-      width: 600px;
-      padding: 0;
-      }
-  
-    .nav-links li {
-        opacity: 1;
-      }
-  
-    .nav-links a {
-      text-decoration: none;
-      color: rgb(58, 58, 58);
-      letter-spacing: 2px;
-      font-family: "Montserrat", sans-serif;
-      } */
     
       .fac:hover {
         color: #4263F3;
@@ -575,10 +539,6 @@ footer {
       height: 340px;
       padding-right: 12px;
      }
-  
-    footer {
-      height: 40vh;
-    }
   
     .footer-content {
       display: flex;
@@ -701,23 +661,6 @@ footer {
         width: 80%;
       }
      
-      /* .social {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-      }
-  
-      .social li {
-        margin: 20px 20px;
-        list-style: none;
-      }
-  
-      .social li a i {
-        margin-top: 20px;
-        color: #666;
-        font-size: 22px;
-      } */
     }
 
     @media only screen and (min-width: 1224px) {
@@ -798,12 +741,6 @@ footer {
     .about-content > h2 {
         font-size: 3rem;
      } 
-
-     /* .slide-img {
-      width: 720px;
-      height: 480px;
-      padding-right: 2rem;
-      } */
     }
 
     @media only screen and (min-width: 1700px) {
@@ -855,12 +792,6 @@ footer {
       padding: 1rem 14rem;
     }
 
-    /* .slide-img {
-      width: 780px;
-      height: 480px;
-      padding-right: 4rem;
-      } */
-  
     .social li a i {
       font-size: 26px;
     } 
@@ -868,6 +799,10 @@ footer {
     .maps {
       width: 1480px;
       height: 580px;
+    }
+
+    footer {
+      margin-top: 220px;
     }
 
     .footer-section > p {
