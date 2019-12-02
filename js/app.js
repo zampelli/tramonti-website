@@ -27,7 +27,7 @@ navSlide();
 // slide images
 let i = 0;
 let images = [];
-let time = 3500;
+let time = 4000;
 
 //image list
 images[0] = '/img/img1.jpg';

@@ -180,9 +180,8 @@
   display: none !important;
 }
 
-
 .modal-log-in {
- background: url(/img/modal-bg.jpg);
+ background: url(/img/rocketBg.jpg);
  z-index: 100;
  background-size: cover;
  background-repeat: no-repeat;
@@ -201,7 +200,7 @@
 }
 
 .modal-log-in > h1 {
-  color: #0061a1;
+  color: #2890d6;
   font-family: "Alef", serif;
   font-size: 3rem;
   text-align: center;
@@ -213,7 +212,7 @@
   display: block;
   margin: 20px auto;
   text-align: center;
-  border: 1px solid #E64569;
+  border: 1px solid rgb(0, 116, 248);
   padding: 14px 10px;
   width: 180px;
   border-radius: 24px;
@@ -238,7 +237,8 @@
   display: block;
   margin: 50px auto;
   text-align: center;
-  border: 1px solid #F98809;
+  border: 1px solid rgb(146, 72, 216);
+  background-color: #fff !important;
   padding: 14px 40px;
   border-radius: 24px;
   outline: none;

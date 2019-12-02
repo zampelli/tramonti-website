@@ -126,8 +126,6 @@ nav {
   margin-top: -50px;
 }
 
-
-
 .icons {
   margin-top: 30px;
 }
@@ -203,7 +201,6 @@ section {
   /* width: 100%;
   max-width: 720px; */
 }
-
 
 
 /* About Us */
@@ -797,8 +794,8 @@ footer {
     } 
 
     .maps {
-      width: 1480px;
-      height: 580px;
+      width: 1200px;
+      height: 480px;
     }
 
     footer {
