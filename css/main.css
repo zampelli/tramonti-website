@@ -57,8 +57,6 @@ nav {
   font-family: "Montserrat", sans-serif;
 }
 
-
-
 .button {
   background-color: #843454; 
   border: none;
@@ -126,6 +124,30 @@ nav {
   margin-top: -50px;
 }
 
+.fade {
+  visibility: hidden;
+}
+
+.inf {
+  font-family: "montserrat", sans-serif;
+  margin-top: 0px;
+  color: rgb(131, 131, 131);
+  font-style: italic;
+}
+.take-out {
+  background-color: #D2722F; 
+  border: none;
+  border-radius: 16px;
+  color: rgb(248, 248, 248);
+  padding: 8px 28px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  outline:none;
+  margin-top: 20px;
+}
 .icons {
   margin-top: 30px;
 }
@@ -327,15 +349,30 @@ footer {
   }
 }
 
+@keyframes fade {
+  0% {
+    opacity:0;
+  } 
+  100% {
+    opacity: 1;
+  }
+}
+
+
 @keyframes navLinkFade {
   from{
       opacity: 0;
       transform: translateX(50px);
-  }
+  } 
   to{
       opacity: 1;
       transform: translateX(0px);
   }
+}
+
+.fade {
+  animation: fade ease 2s;
+  display: none;
 }
 
 .fade-in {
@@ -515,6 +552,13 @@ footer {
         display: none;
       } */
 
+      .fade {
+        width: 60%;
+        line-height: 1.8;
+        margin-top: 40px;
+        visibility: visible;
+      }
+
      section {
        height: 100vh;
      } 
@@ -597,8 +641,8 @@ footer {
       }
       
       #bm {
-        width: 380px;
-        margin-top: 0px;
+        width: 320px;
+        margin-top: -80px;
       }
       .show-desktop {
         display: block;
@@ -673,6 +717,10 @@ footer {
         margin: 20px 0 20px 0;
       }
 
+      .about-content > p {
+        padding: 1rem 8rem;
+      }
+
       .hide-mobile{
         display: block;
       }
@@ -742,7 +790,7 @@ footer {
 
     @media only screen and (min-width: 1700px) {
     #bm {
-        width: 480px;
+        width: 420px;
         margin-top: 50px;
     }
 
@@ -752,7 +800,10 @@ footer {
     }
 
     .scroll {
-      margin-top: 100px;
+      margin-top: 0;
+    }
+    .inf {
+      margin-top: 20px;
     }
 
     .content-text {

@@ -3,7 +3,7 @@
   const burger = document.querySelector('.burger');
   const nav = document.querySelector('.nav-links');
   const navLinks =document.querySelectorAll('.nav-links li');
-
+  
   // toggle nav
   burger.addEventListener('click', () => {
       nav.classList.toggle('nav-active');
@@ -61,6 +61,13 @@ const animation = bodymovin.loadAnimation({
   autoplay: true,
   path: 'data.json'
 });
+
+//informative message hero section
+setTimeout(() =>{
+const fade = document.querySelector('.fade');
+fade.style.display = 'block';
+},2000)
+
 
 
 

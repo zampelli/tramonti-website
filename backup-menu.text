@@ -1,0 +1,141 @@
+ <div class="appetizer">
+      <h1 class="catg-text">APPETIZER</h1>
+      <p class="specialLink hide-desktop">Tap me to see the specials</p>
+      <h3>OLIVES & GIARDINIERA <span></span></h3>
+      <p>cured green olives from Castelvetrano, homemade pickled veggies &nbsp; 8</p>
+      <h3>BRUSCHETTA <span></span></h3>
+      <p>4 slices of toasted homemade bread, diced organic tomatoes, basil, garlic & EVOO &nbsp; 6 | 11</p>
+      <h3>CAPRESE <span></span></h3>
+      <p>seasonal tomato, fior di latte mozzarella, fresh basil, Mediterranean salt & EVOO &nbsp; 10</p>
+      <h3>GAMBERONI ALLA DIAVOLA <span></span></h3>
+      <p>5 prawns seasoned with Parmigiano, garlic & parsley, then wrapped in Calabrese
+        “Soppressata”, baked in our brick oven, served with arugula & Dijon tzatziki sauce &nbsp; 14</p>
+      <h3>BURRATA & CAPONATA<span></span></h3>
+      <p>Sicilian style sautéed & chilled veggies ‘agrodolce’, topped with fresh burrata &nbsp; 16</p>
+      <h3>ANTIPASTI DI SALUMI ITALIANI <span></span></h3>
+      <p>nice to share... Prosciutto di Parma, artisanal Italian ham, salame Genova, Soppressata
+        Calabrese & ‘giardiniera’ &nbsp; 19</p>
+      <h3 class="long-p">POLENTA MONTANARA<span></span></h3>
+      <p>organic polenta baked with Gorgonzola, Fontina, Parmigiano Reggiano & sage &nbsp; 13 </p>
+    </div>
+    <div class="soup" data-aos="fade-up">
+      <h1 class="catg-text">ZUPPE</h1>
+      <h3>GUAZZETTO DI MARE (seafood stew)<span></span></h3>
+      <p>freshly sautéed prawns, calamari, clams, salmon in a light tomato & white wine broth, served with crostini &nbsp; 17</p>
+      <h3>MINESTRONE DELLA NONNA<span></span></h3>
+      <p>seasonal organic veggies & beans slowly cooked in an herb bouquet  &nbsp; 11</p>
+      <h3>PASTA & FAGIOLI<span></span></h3>
+      <p>a mix of 16 organic beans and seasonal veggies slowly cooked in a broth with Parma prosciutto, herbs & “maltagliati” egg noodle pasta &nbsp; 16 </p>
+    </div>
+    <div class="pasta" data-aos="fade-up">
+      <h1 class="catg-text">PASTA </h1>
+      <h3>RIGATONI ALLA CARBONARA<span></span></h3>
+      <p>the traditional recipe di Trastevere with egg yolk, “guanciale” & Pecorino Romano &nbsp; 18</p>
+      <h3>GNOCCHI ALLA SORRENTINA<span></span></h3>
+      <p>artisanal fluffy potato dumplings, marinara, mozzarella, basil & Parmigiano Reggiano &nbsp; 18 </p>
+      <h3>SPAGHETTI & MEATBALLS<span></span></h3>
+      <p>marinara, grass-fed beef “polpette”, EVOO & Parmigiano Reggiano &nbsp; 17 </p>
+      <h3>PAPPARDELLE ALLA BOLOGNESE<span></span></h3>
+      <p>ribbons of egg noodles with grandma Enza’s meat sauce & Parmigiano Reggiano &nbsp; 18 </p>
+      <h3>FETUCCINE PESTO<span></span></h3>
+      <p>egg noodles with authentic Genovese pesto, potatoes & green beans &nbsp; 17 </p>
+      <h3>SPAGHETTO ALLA PESCATORA<span></span></h3>
+      <p>calamari, clams, prawns in a light tomato white wine sauce & parsley &nbsp; 23</p>
+      <h3>RAVIOLI ALL’ OSSOBUCO<span></span></h3>
+      <p>stuffed with veal ossobuco “brasato”, butter and sage sauce & Parmigiano Reggiano  &nbsp; 24</p>
+      <br>
+      <p class="red">make any pasta gluten free $3</p>
+    </div>
+    <div class="speciality" data-aos="fade-up">
+      <h1 class="catg-text">SPECIALITIES</h1>
+      <h3>MEATBALLS & POLENTA<span></span></h3>
+      <p>grass-fed beef “polpette” in our marinara with roasted polenta & Parmigiano &nbsp; 14</p>
+      <h3>EGGPLANT PARMIGIANA<span></span></h3>
+      <p>brick oven roasted eggplant, marinara, mozzarella, Parmigiano Reggiano & basil &nbsp; 16 </p>
+      <h3>LA LASAGNA<span></span></h3>
+      <p>layers of egg noodles, béchamel, our Bolognese, mozzarella & Parmigiano &nbsp; 19 </p>
+      <h3>FILETTO DI SALMONE<span></span></h3>
+      <p>fresh caught, roasted in our pizza oven & served on a bed of arugula with country style roasted potatoes & Italian tzatziki &nbsp; 25 </p>
+      <h3>CHICKEN PARMIGIANA<span></span></h3>
+      <p>free-range chicken thigh “a la Milanese” layered with mozzarella & artisanal ham, topped with marinara, oregano & Parmigiano Reggiano, roasted in our brick oven &nbsp; 22</p>
+    </div>
+
+    <div class="salad" data-aos="fade-up">
+      <h1 class="catg-text">SALADS</h1>
+      <h3>GARDEN<span></span></h3>
+      <p>greens, kale, arugula, olives, cherry tomatoes, carrots & balsamic dressing &nbsp; 7 | 10</p>
+      <h3>SANTA CROCE<span></span></h3>
+      <p>greens, kale, arugula, fennel, carrots, toasted hazelnuts, feta, Parmigiano Reggiano & “citronette” dressing &nbsp; 10 | 14 </p>
+      <h3>CONTADINA<span></span></h3>
+      <p>greens, arugula, pears, walnuts, Gorgonzola & Modena balsamic reduction &nbsp; 9 | 14 </p>
+      <h3>MERCATO<span></span></h3>
+      <p>greens, baby spinach, celery, apple, grilled chicken thigh, Parmigiano, & Modena balsamic reduction &nbsp; 15</p>
+      <h3>COSTA AZZURRA<span></span></h3>
+      <p>greens, arugula, “giardiniera” Italian pickled veggies , potatoes, cherry tomatoes, boiled egg , Italian cured tuna, anchovies & “Dijon” vinaigrette &nbsp; 15 </p>
+    </div>
+
+    <div class="pizza" data-aos="fade-up">
+        <h1 class="catg-text">PIZZA</h1>
+        <h3>MARGHERITA<span></span></h3>
+        <p>tomato sauce, mozzarella & basil &nbsp; 14 </p>
+        <h3>REGINA<span></span></h3>
+        <p>EVOO cured San Marzano tomato filets, house pesto, “fior di latte” mozzarella &nbsp; 17 </p>
+        <h3>BUFALINA<span></span></h3>
+        <p>tomato sauce, double mozzarella, cherry tomatoes & basil  &nbsp; 16 </p>
+        <h3>MAMMAROSA<span></span></h3>
+        <p>tomato sauce, mozzarella, grilled eggplant, zucchini, red bell pepper &nbsp; 16</p>
+        <h3>PARMIGIANA<span></span></h3>
+        <p>tomato sauce, mozzarella, ricotta, eggplant, Parmigiano & basil &nbsp; 17 </p>
+        <h3>CARCIOFA<span></span></h3>
+        <p>mozzarella , artichoke, roasted garlic, Pecorino Romano & fresh mint  &nbsp; 17 </p>
+        <h3>TARTUFO<span></span></h3>
+        <p>mozzarella, Cremini & Porcini mushroom, Parmigiano & white truffle sauce &nbsp; 19</p>
+        <h3>LA RUSTICA<span></span></h3>
+        <p>mozzarella, Italian sausage, potatoes, rosemary, & Parmigiano &nbsp; 17</p>
+        <h3>PEPPERONI<span></span></h3>
+        <p>tomato sauce, mozzarella, artisanal pepperoni  &nbsp; 16</p>
+        <h3>CAPRICCIOSA<span></span></h3>
+        <p>tomato sauce, mozzarella, artisanal ham, mushrooms & egg &nbsp; 17</p>
+        <h3>STAGIONI<span></span></h3>
+        <p>tomato sauce, mozzarella, ham, mushrooms, olives & artichoke &nbsp; 18</p>
+        <h3>SAUSAGE<span></span></h3>
+        <p>tomato sauce, mozzarella, homemade Italian sausage &nbsp; 17</p>
+        <h3>PARMA<span></span></h3>
+        <p>tomato sauce, mozzarella, arugula, Parma prosciutto & shaved Parmigiano &nbsp; 19 </p>
+        <h3>MEO<span></span></h3>
+        <p>tomato sauce, mozzarella, salame Genova, Italian sausage & red onion &nbsp; 18</p>
+        <h3>DIAVOLA<span></span></h3>
+        <p>tomato sauce, mozzarella, Soppressata, bell pepper & Calabrese &nbsp; 17</p>
+        <h3>NOCI<span></span></h3>
+        <p>mozzarella, gorgonzola, walnuts, pears, balsamic reduction & Parma prosciutto &nbsp; 18 </p>
+        <h3>SEABRIGHT<span></span></h3>
+        <p>mozzarella, cherry tomatoes, lightly spiced broccoli, sausage & fontina &nbsp; 18 </p>
+        <h3>SICILIANA<span></span></h3>
+        <p>tomato sauce, mozzarella, anchovies, olives, capers & oregano &nbsp; 16 </p>
+        <h3>FISHERMAN<span></span></h3>
+        <p>tomato sauce, mozzarella, Italian tuna, prawns, onion & capers &nbsp; 20</p>
+        <br>
+        <p class="red">ADD SAUSAGE  |  ARTISANAL HAM  |  ITALIAN  TUNA  |  CHICKEN  |  PRAWN  $4  OLIVES | ANY VEGGIE $2  </p>
+      </div>
+      <div class="calzone" data-aos="fade-up">
+        <h1 class="catg-text">CALZONE</h1>
+        <h3>FIRENZE<span></span></h3>
+        <p>mozzarella, ricotta, sautéed spinach, egg & Parmigiano topped with tomato sauce &nbsp; 18</p>
+        <h3>CALABRO<span></span></h3>
+        <p>seasonal organic veggies & beans slowly cooked in an herb bouquet  &nbsp; 7 | 11</p>
+        <h3>STROMBOLI<span></span></h3>
+        <p>filled with 3 grass-fed beef meatballs, marinara & Parmigiano topped with our “Bolognese” ragu’ & mozzarella &nbsp; 20 </p>
+      </div>
+      <div class="desserts" data-aos="fade-up">
+          <h1 class="catg-text">DESSERTS</h1>
+          <h3>GELATO & SORBETTO<span></span></h3>
+          <p>made from scratch at our artisanal gelateria in Pleasure Point ! …ask for today’s flavors &nbsp; one scoop 4 | two scoop 7 </p>
+          <h3>AFFOGATO<span></span></h3>
+          <p>vanilla gelato, finished with a shot of espresso &nbsp; 8 </p>
+          <h3>TIRAMISU<span></span></h3>
+          <p>the original recipe from Treviso … in a glass &nbsp; 8 </p>
+          <h3>PANNACOTTA<span></span></h3>
+          <p>the classic and delicious fresh cream custard, topped with caramel &nbsp; 8 </p>
+          <h3>PROFITEROL<span></span></h3>
+          <p>puff pastry filled with caster cream, covered in a rich chocolate ganache  &nbsp; 10 </p>
+        </div>

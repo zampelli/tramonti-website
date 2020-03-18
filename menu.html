@@ -1,70 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Great+Vibes|Montserrat:400,500|Roboto:400,700&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Alef|Signika&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Foon awesome -->
+    <script type="text/javascript">
+      (function() {
+        var css = document.createElement("link");
+        css.href = "https://use.fontawesome.com/releases/v5.1.0/css/all.css";
+        css.rel = "stylesheet";
+        css.type = "text/css";
+        document.getElementsByTagName("head")[0].appendChild(css);
+      })();
+    </script>
+    <!-- Css stylesheet -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="/css/menu.css" />
+    <link rel="stylesheet" href="/css/modal.css" />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Montserrat:400,500|Roboto:400,700&display=swap">
-  <link href="https://fonts.googleapis.com/css?family=Alef|Signika&display=swap" rel="stylesheet">
-  <!-- Foon awesome -->
-  <script
-    type="text/javascript"> (function () { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
-  <!-- Css stylesheet -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="stylesheet" href="/css/menu.css">
-  <link rel="stylesheet" href="/css/modal.css">
+    <title>Tramonti</title>
+  </head>
 
-  <title>Tramonti</title>
-</head>
-
-<body>
-  <nav>
-    <div class="logo">
-      <a href="/index.html#home"><img src="/img/navBarTramontiLogo.svg" alt=""></a>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="/index.html#home"
+          ><img src="/img/navBarTramontiLogo.svg" alt=""
+        /></a>
+      </div>
+      <ul class="nav-links">
+        <li class="top"><a href="/index.html">Home</a></li>
+        <li><a href="/wine-list.html">Wine List</a></li>
+        <li class="hide-mobile"><a href="/index.html#about">About</a></li>
+        <li class="hide-desktop">
+          <a href="mailto:info@tramontisantacruz.com">Contact</a>
+        </li>
+        <!-- <li><a href="#"><button class="buttonS modalBtn hide-mobile">Specials</button></a></li>
+      <li><a href="/wine-club.html"><button class="button">Wine Club</button></a></li> -->
+        <li>
+          <a href="https://www.facebook.com/tramontisantacruz"
+            ><i class="fac fab fa-facebook-f i "></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/tramonti_santacruz/"
+            ><i class="insta fab fa-instagram i "></i
+          ></a>
+        </li>
+        <!-- <li><a href="https://goo.gl/maps/stg311yP5R26osiU8"><i class="map fas fa-map-marker-alt i "></i></a></li> -->
+        <li><i class="hide-mobile edit far fa-edit"></i></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <div class="hide modal-log modal-log-in">
+      <span class="close-log-in"><i class="fas fa-times"></i></span>
+      <div class="pops-up">
+        <span class="log-in-pop">You are logged in!</span>
+      </div>
+      <h1>Log In</h1>
+      <div class="log-in">
+        <form autocomplete="off" id="log-in">
+          <div class="input-field">
+            <input
+              type="email"
+              id="login-email"
+              placeholder="Username"
+              required
+            />
+            <label for="login-email"></label>
+          </div>
+          <div class="input-field">
+            <input
+              type="password"
+              id="login-password"
+              placeholder="password"
+              required
+            />
+            <label for="login-password"></label>
+          </div>
+          <button class="btn">Login</button>
+        </form>
+      </div>
     </div>
-    <ul class="nav-links">
-      <li class="top"><a href="/index.html">Home</a></li>
-      <li><a href="/wine-list.html">Wine List</a></li>
-      <li class="hide-mobile"><a href="/index.html#about">About</a></li>
-      <li class="hide-desktop"><a href="#">Contact</a></li>
-      <li><a href="#"><button class="buttonS modalBtn hide-mobile">Specials</button></a></li>
-      <li><a href="/wine-club.html"><button class="button">Wine Club</button></a></li>
-      <li><a href="https://www.facebook.com/tramontisantacruz"><i class="fac fab fa-facebook-f i "></i></a></li>
-      <li><a href="https://www.instagram.com/tramonti_santacruz/"><i class="insta fab fa-instagram i "></i></a></li>
-      <!-- <li><a href="https://goo.gl/maps/stg311yP5R26osiU8"><i class="map fas fa-map-marker-alt i "></i></a></li> -->
-      <li><i class="hide-mobile edit far fa-edit"></i></li>
-    </ul>
-    <div class="burger">
-      <div class="line1"></div>
-      <div class="line2"></div>
-      <div class="line3"></div>
-    </div>
-  </nav>
-  <div class="hide modal-log modal-log-in">
-  <span class="close-log-in"><i class="fas fa-times"></i></span>
-  <div class="pops-up">
-  <span class="log-in-pop">You are logged in!</span>
-</div>
-    <h1>Log In </h1>
-    <div class="log-in">
-      <form autocomplete="off" id="log-in">
-        <div class="input-field">
-          <input type="email" id="login-email" placeholder="Username" required />
-          <label for="login-email"></label>
+    <section class="menu">
+      <div class="notice">
+        <h3>Tramonti News</h3>
+        <p>
+          Call 831 426 7248 to place your order, we offer 10% discount for
+          pick-up orders or we deliver directly from our kitchen to your door.
+        </p>
+      </div>
+      <a href="tel:1-831-426-7248"
+        ><img class="icon-mob" src="img/call icon.svg" alt="Call"
+      /></a>
+      <div class="editable" contenteditable="">
+        <div class="appetizer">
+          <h1 class="catg-text cat1"</h1>
+          <h3 class="t1"></h3>
+          <p class="a1"></p>
+          <h3 class="t2"></h3>
+          <p class="a2"></p>
+          <h3 class="t3"></h3>
+          <p class="a3"></p>
+          <h3 class="t4"></h3>
+          <p class="a4"></p>
+          <h3 class="t5"></h3>
+          <p class="a5"></p>
+          <h3 class="t6"></h3>
+          <p class="a6"></p>
+          <h3 class="t7 long-p"></h3>
+          <p class="a7"></p>
         </div>
-        <div class="input-field">
-          <input type="password" id="login-password" placeholder="password" required />
-          <label for="login-password"></label>
+        <div class="soup">
+          <h1 class="catg-text cat2"></h1>
+          <h3 class="t8"></h3>
+          <p class="a8"></p>
+          <h3 class="t9"></h3>
+          <p class="a9"></p>
+          <h3 class="t10"></h3>
+          <p class="a10"></p>
         </div>
-        <button class="btn">Login</button>
-      </form>
-    </div>
-  </div>
+        <div class="pasta">
+          <h1 class="catg-text cat3"></h1>
+          <h3 class="t11"></h3>
+          <p class="a11"></p>
+          <h3 class="t12"></h3>
+          <p class="a12"></p>
+          <h3 class="t13"></h3>
+          <p class="a13"></p>
+          <h3 class="t14"></h3>
+          <p class="a14"></p>
+          <h3 class="t15"></h3>
+          <p class="a15"></p>
+          <h3 class="t16"></h3>
+          <p class="a16"></p>
+          <h3 class="t17"></h3>
+          <p class="a17"></p>
+        </div>
+        <div class="speciality">
+          <h1 class="catg-text cat4"></h1>
+          <h3 class="t18"></h3>
+          <p class="a18"></p>
+          <h3 class="t19"></h3>
+          <p class="a19"></p>
+          <h3 class="t20"></h3>
+          <p class="a20"></p>
+          <h3 class="t21"></h3>
+          <p class="a21"></p>
+          <h3 class="t22"></h3>
+          <p class="a22"></p>
+        </div>
 
-  <div id="modalSpecial" class="modal">
+        <div class="salad">
+          <h1 class="catg-text cat5"></h1>
+          <h3 class="t23"></h3>
+          <p class="a23"></p>
+          <h3 class="t24"><span></span></h3>
+          <p class="a24"></p>
+          <h3 class="t25"><span></span></h3>
+          <p class="a25"></p>
+          <h3 class="t26"><span></span></h3>
+          <p class="a26"></p>
+          <h3 class="t27"><span></span></h3>
+          <p class="a27"></p>
+        </div>
+
+        <div class="pizza">
+          <h1 class="catg-text cat6"></h1>
+          <h3 class="t28"><span></span></h3>
+          <p class="a28"></p>
+          <h3 class="t29"></h3>
+          <p class="a29"></p>
+          <h3 class="t30"></h3>
+          <p class="a30"></p>
+          <h3 class="t31"></h3>
+          <p class="a31"></p>
+          <h3 class="t32"></h3>
+          <p class="a32"></p>
+          <h3 class="t33"></h3>
+          <p class="a33"></p>
+          <h3 class="t34"></h3>
+          <p class="a34"></p>
+          <h3 class="t35"></h3>
+          <p class="a35"></p>
+          <h3 class="t36"></h3>
+          <p class="a36"></p>
+          <h3 class="t37"></h3>
+          <p class="a37"></p>
+          <h3 class="t38"></h3>
+          <p class="a38"></p>
+          <h3 class="t39"></h3>
+          <p class="a39"></p>
+          <h3 class="t40"></h3>
+          <p class="a40"></p>
+          <h3 class="t41"></h3>
+          <p class="a41"></p>
+          <h3 class="t42"></h3>
+          <p class="a42"></p>
+          <h3 class="t43"></h3>
+          <p class="a43"></p>
+          <h3 class="t44"></h3>
+          <p class="a44"></p>
+          <h3 class="t45"></h3>
+          <p class="a45"></p>
+          <h3 class="t46"></h3>
+          <p class="a46"></p>
+          <br />
+          <p class="red">
+            ADD SAUSAGE | ARTISANAL HAM | ITALIAN TUNA | CHICKEN | PRAWN $4
+            OLIVES | ANY VEGGIE $2
+          </p>
+        </div>
+        <div class="calzone">
+          <h1 class="catg-text cat7"></h1>
+          <h3 class="t47"></h3>
+          <p class="a47"></p>
+          <h3 class="t48"></h3>
+          <p class="a48"></p>
+          <h3 class="t49"></h3>
+          <p class="a49"></p>
+        </div>
+        <div class="desserts">
+          <h1 class="catg-text cat8"></h1>
+          <h3 class="t50"></h3>
+          <p class="a50"></p>
+          <h3 class="t51"></h3>
+          <p class="a51"></p>
+          <h3 class="t52"></h3>
+          <p class="a52"></p>
+          <h3 class="t53"></h3>
+          <p class="a53"></p>
+          <h3 class="t54"></h3>
+          <p class="a54"></p>
+        </div>
+      </div>
+      <div class="pops-out">
+        <span class="log-out-pop">You are logged out!</span>
+      </div>
+      <div class="update-pop">
+        <span class="update">Update Succefully</span>
+      </div>
+      <div class="center">
+        <button class="updt-btn hide-btn">Update</button>
+        <i class="logout fas fa-sign-out-alt"></i>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section left">
+          <div class="quick-links">
+            <h1>Quick Links</h1>
+            <ul>
+              <a href="/index.html">
+                <li>Home</li>
+              </a>
+              <a href="/menu.html">
+                <li>Menu</li>
+              </a>
+              <a href="/wine-list.html">
+                <li>Wine List</li>
+              </a>
+              <a href="/index.html#about">
+                <li>About</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-section right"></div>
+      </div>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-auth.js"></script>
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+    <script>
+      AOS.init({
+        offset: 400,
+        duration: 500
+      });
+    </script>
+    <script type="module" src="/js/editor.js"></script>
+    <script src="/js/toggle.js"></script>
+    <script src="/js/modal.js"></script>
+  </body>
+</html>
+
+<!-- <div id="modalSpecial" class="modal">
       <div class="modal-content">
         <div class="rightt">
           <span class="close-btn"><i class="fas fa-times"></i></span>
@@ -87,205 +324,7 @@
         <div class="update-pop">
             <span class="update">Update Succefully</span>
            </div>
-        <div class="center">
-          <button class="modal-btn hide-btn">Update</button>
-        </div>
+
       </div>
   
-    </div>
-
-  <section class="menu">
-    <div class="appetizer">
-      <h1 class="catg-text">APPETIZER</h1>
-      <p class="specialLink hide-desktop">Tap me to see the specials</p>
-      <h3>OLIVES & GIARDINIERA <span></span></h3>
-      <p>cured green olives from Castelvetrano, homemade pickled veggies &nbsp; 8</p>
-      <h3>BRUSCHETTA <span></span></h3>
-      <p>4 slices of toasted homemade bread, diced organic tomatoes, basil, garlic & EVOO &nbsp; 6 | 11</p>
-      <h3>CAPRESE <span></span></h3>
-      <p>seasonal tomato, fior di latte mozzarella, fresh basil, Mediterranean salt & EVOO &nbsp; 10</p>
-      <h3>GAMBERONI ALLA DIAVOLA <span></span></h3>
-      <p>5 prawns seasoned with Parmigiano, garlic & parsley, then wrapped in Calabrese
-        “Soppressata”, baked in our brick oven, served with arugula & Dijon tzatziki sauce &nbsp; 14</p>
-      <h3>BURRATA & CAPONATA<span></span></h3>
-      <p>Sicilian style sautéed & chilled veggies ‘agrodolce’, topped with fresh burrata &nbsp; 16</p>
-      <h3>ANTIPASTI DI SALUMI ITALIANI <span></span></h3>
-      <p>nice to share... Prosciutto di Parma, artisanal Italian ham, salame Genova, Soppressata
-        Calabrese & ‘giardiniera’ &nbsp; 19</p>
-      <h3 class="long-p">POLENTA MONTANARA<span></span></h3>
-      <p>organic polenta baked with Gorgonzola, Fontina, Parmigiano Reggiano & sage &nbsp; 13 </p>
-    </div>
-    <div class="soup" data-aos="fade-up">
-      <h1 class="catg-text">ZUPPE</h1>
-      <h3>GUAZZETTO DI MARE (seafood stew)<span></span></h3>
-      <p>freshly sautéed prawns, calamari, clams, salmon in a light tomato & white wine broth, served with crostini &nbsp; 17</p>
-      <h3>MINESTRONE DELLA NONNA<span></span></h3>
-      <p>seasonal organic veggies & beans slowly cooked in an herb bouquet  &nbsp; 11</p>
-      <h3>PASTA & FAGIOLI<span></span></h3>
-      <p>a mix of 16 organic beans and seasonal veggies slowly cooked in a broth with Parma prosciutto, herbs & “maltagliati” egg noodle pasta &nbsp; 16 </p>
-    </div>
-    <div class="pasta" data-aos="fade-up">
-      <h1 class="catg-text">PASTA </h1>
-      <h3>RIGATONI ALLA CARBONARA<span></span></h3>
-      <p>the traditional recipe di Trastevere with egg yolk, “guanciale” & Pecorino Romano &nbsp; 18</p>
-      <h3>GNOCCHI ALLA SORRENTINA<span></span></h3>
-      <p>artisanal fluffy potato dumplings, marinara, mozzarella, basil & Parmigiano Reggiano &nbsp; 18 </p>
-      <h3>SPAGHETTI & MEATBALLS<span></span></h3>
-      <p>marinara, grass-fed beef “polpette”, EVOO & Parmigiano Reggiano &nbsp; 17 </p>
-      <h3>PAPPARDELLE ALLA BOLOGNESE<span></span></h3>
-      <p>ribbons of egg noodles with grandma Enza’s meat sauce & Parmigiano Reggiano &nbsp; 18 </p>
-      <h3>FETUCCINE PESTO<span></span></h3>
-      <p>egg noodles with authentic Genovese pesto, potatoes & green beans &nbsp; 17 </p>
-      <h3>SPAGHETTO ALLA PESCATORA<span></span></h3>
-      <p>calamari, clams, prawns in a light tomato white wine sauce & parsley &nbsp; 23</p>
-      <h3>RAVIOLI ALL’ OSSOBUCO<span></span></h3>
-      <p>stuffed with veal ossobuco “brasato”, butter and sage sauce & Parmigiano Reggiano  &nbsp; 24</p>
-      <br>
-      <p class="red">make any pasta gluten free $3</p>
-    </div>
-    <div class="speciality" data-aos="fade-up">
-      <h1 class="catg-text">SPECIALITIES</h1>
-      <h3>MEATBALLS & POLENTA<span></span></h3>
-      <p>grass-fed beef “polpette” in our marinara with roasted polenta & Parmigiano &nbsp; 14</p>
-      <h3>EGGPLANT PARMIGIANA<span></span></h3>
-      <p>brick oven roasted eggplant, marinara, mozzarella, Parmigiano Reggiano & basil &nbsp; 16 </p>
-      <h3>LA LASAGNA<span></span></h3>
-      <p>layers of egg noodles, béchamel, our Bolognese, mozzarella & Parmigiano &nbsp; 19 </p>
-      <h3>FILETTO DI SALMONE<span></span></h3>
-      <p>fresh caught, roasted in our pizza oven & served on a bed of arugula with country style roasted potatoes & Italian tzatziki &nbsp; 25 </p>
-      <h3>CHICKEN PARMIGIANA<span></span></h3>
-      <p>free-range chicken thigh “a la Milanese” layered with mozzarella & artisanal ham, topped with marinara, oregano & Parmigiano Reggiano, roasted in our brick oven &nbsp; 22</p>
-    </div>
-
-    <div class="salad" data-aos="fade-up">
-      <h1 class="catg-text">SALADS</h1>
-      <h3>GARDEN<span></span></h3>
-      <p>greens, kale, arugula, olives, cherry tomatoes, carrots & balsamic dressing &nbsp; 7 | 10</p>
-      <h3>SANTA CROCE<span></span></h3>
-      <p>greens, kale, arugula, fennel, carrots, toasted hazelnuts, feta, Parmigiano Reggiano & “citronette” dressing &nbsp; 10 | 14 </p>
-      <h3>CONTADINA<span></span></h3>
-      <p>greens, arugula, pears, walnuts, Gorgonzola & Modena balsamic reduction &nbsp; 9 | 14 </p>
-      <h3>MERCATO<span></span></h3>
-      <p>greens, baby spinach, celery, apple, grilled chicken thigh, Parmigiano, & Modena balsamic reduction &nbsp; 15</p>
-      <h3>COSTA AZZURRA<span></span></h3>
-      <p>greens, arugula, “giardiniera” Italian pickled veggies , potatoes, cherry tomatoes, boiled egg , Italian cured tuna, anchovies & “Dijon” vinaigrette &nbsp; 15 </p>
-    </div>
-
-    <div class="pizza" data-aos="fade-up">
-        <h1 class="catg-text">PIZZA</h1>
-        <h3>MARGHERITA<span></span></h3>
-        <p>tomato sauce, mozzarella & basil &nbsp; 14 </p>
-        <h3>REGINA<span></span></h3>
-        <p>EVOO cured San Marzano tomato filets, house pesto, “fior di latte” mozzarella &nbsp; 17 </p>
-        <h3>BUFALINA<span></span></h3>
-        <p>tomato sauce, double mozzarella, cherry tomatoes & basil  &nbsp; 16 </p>
-        <h3>MAMMAROSA<span></span></h3>
-        <p>tomato sauce, mozzarella, grilled eggplant, zucchini, red bell pepper &nbsp; 16</p>
-        <h3>PARMIGIANA<span></span></h3>
-        <p>tomato sauce, mozzarella, ricotta, eggplant, Parmigiano & basil &nbsp; 17 </p>
-        <h3>CARCIOFA<span></span></h3>
-        <p>mozzarella , artichoke, roasted garlic, Pecorino Romano & fresh mint  &nbsp; 17 </p>
-        <h3>TARTUFO<span></span></h3>
-        <p>mozzarella, Cremini & Porcini mushroom, Parmigiano & white truffle sauce &nbsp; 19</p>
-        <h3>LA RUSTICA<span></span></h3>
-        <p>mozzarella, Italian sausage, potatoes, rosemary, & Parmigiano &nbsp; 17</p>
-        <h3>PEPPERONI<span></span></h3>
-        <p>tomato sauce, mozzarella, artisanal pepperoni  &nbsp; 16</p>
-        <h3>CAPRICCIOSA<span></span></h3>
-        <p>tomato sauce, mozzarella, artisanal ham, mushrooms & egg &nbsp; 17</p>
-        <h3>STAGIONI<span></span></h3>
-        <p>tomato sauce, mozzarella, ham, mushrooms, olives & artichoke &nbsp; 18</p>
-        <h3>SAUSAGE<span></span></h3>
-        <p>tomato sauce, mozzarella, homemade Italian sausage &nbsp; 17</p>
-        <h3>PARMA<span></span></h3>
-        <p>tomato sauce, mozzarella, arugula, Parma prosciutto & shaved Parmigiano &nbsp; 19 </p>
-        <h3>MEO<span></span></h3>
-        <p>tomato sauce, mozzarella, salame Genova, Italian sausage & red onion &nbsp; 18</p>
-        <h3>DIAVOLA<span></span></h3>
-        <p>tomato sauce, mozzarella, Soppressata, bell pepper & Calabrese &nbsp; 17</p>
-        <h3>NOCI<span></span></h3>
-        <p>mozzarella, gorgonzola, walnuts, pears, balsamic reduction & Parma prosciutto &nbsp; 18 </p>
-        <h3>SEABRIGHT<span></span></h3>
-        <p>mozzarella, cherry tomatoes, lightly spiced broccoli, sausage & fontina &nbsp; 18 </p>
-        <h3>SICILIANA<span></span></h3>
-        <p>tomato sauce, mozzarella, anchovies, olives, capers & oregano &nbsp; 16 </p>
-        <h3>FISHERMAN<span></span></h3>
-        <p>tomato sauce, mozzarella, Italian tuna, prawns, onion & capers &nbsp; 20</p>
-        <br>
-        <p class="red">ADD SAUSAGE  |  ARTISANAL HAM  |  ITALIAN  TUNA  |  CHICKEN  |  PRAWN  $4  OLIVES | ANY VEGGIE $2  </p>
-      </div>
-      <div class="calzone" data-aos="fade-up">
-        <h1 class="catg-text">CALZONE</h1>
-        <h3>FIRENZE<span></span></h3>
-        <p>mozzarella, ricotta, sautéed spinach, egg & Parmigiano topped with tomato sauce &nbsp; 18</p>
-        <h3>CALABRO<span></span></h3>
-        <p>seasonal organic veggies & beans slowly cooked in an herb bouquet  &nbsp; 7 | 11</p>
-        <h3>STROMBOLI<span></span></h3>
-        <p>filled with 3 grass-fed beef meatballs, marinara & Parmigiano topped with our “Bolognese” ragu’ & mozzarella &nbsp; 20 </p>
-      </div>
-      <div class="desserts" data-aos="fade-up">
-          <h1 class="catg-text">DESSERTS</h1>
-          <h3>GELATO & SORBETTO<span></span></h3>
-          <p>made from scratch at our artisanal gelateria in Pleasure Point ! …ask for today’s flavors &nbsp; one scoop 4 | two scoop 7 </p>
-          <h3>AFFOGATO<span></span></h3>
-          <p>vanilla gelato, finished with a shot of espresso &nbsp; 8 </p>
-          <h3>TIRAMISU<span></span></h3>
-          <p>the original recipe from Treviso … in a glass &nbsp; 8 </p>
-          <h3>PANNACOTTA<span></span></h3>
-          <p>the classic and delicious fresh cream custard, topped with caramel &nbsp; 8 </p>
-          <h3>PROFITEROL<span></span></h3>
-          <p>puff pastry filled with caster cream, covered in a rich chocolate ganache  &nbsp; 10 </p>
-        </div>
-  </section>
-
-  <footer>
-      <div class="footer-content">
-        <div class="footer-section left">
-          <div class="quick-links">
-            <h1>Quick Links</h1>
-            <ul>
-              <a href="/index.html">
-                <li>Home</li>
-              </a>
-              <a href="/menu.html">
-                <li>Menu</li>
-              </a>
-              <a href="/wine-list.html">
-                  <li>Wine List</li>
-                </a>
-              <a href="/index.html#about">
-                <li>About</li>
-              </a>
-            </ul>
-          </div>
-        </div>
-        <div class="footer-section right">
-          <h1>Other Locations</h1>
-          <p class="footer-p">Bellagio is the join venture of the two most authentic and celebrated “local” Italian restaurants in Santa Cruz - Tramonti & Lago di Como - we are bringing the authenticity and the high quality of our chef’s experience in a casual and beach style “deli” concept. We proudly use mostly organic ingredients, local sourced or imported from Italy to prepare house made Gelato (yes, the real deal!), spectacular vegan sorbets, gourmet Panini and tramezzini (the “two bites” tea sandwiches), and espresso. #wecookthefoodwelove</p>
-            <div class="footer-social">
-                <a href="https://www.facebook.com/tramontisantacruz"><i class="fab fa-facebook-f i"></i></a>
-                <a href="https://www.instagram.com/tramonti_santacruz/"><i class="fab fa-instagram i"></i>
-                <a href="#"><i class="fas fa-envelope i"></i></a>
-            </div>
-        </div>
-      </div>
-    </footer>
-
-
-
-  <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-database.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-auth.js"></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      offset: 400,
-      duration: 500,
-    });
-  </script>
-  <script src="/js/auth.js"></script>
-  <script src="/js/toggle.js"></script>
-  <script src="/js/modal.js"></script>
-</body>
-
-</html>
+    </div> -->

@@ -118,14 +118,12 @@ nav {
   outline:none;
 }
 
-.buttonS {
+/* .buttonS {
   background-color: #D2722F; 
   border: none;
   border-radius: 16px;
   color: rgb(248, 248, 248);
   padding: 8px 28px;
-  /* width: 120px;
-  height: 34px; */
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -133,7 +131,7 @@ nav {
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
   outline:none;
-}
+} */
 
 .specialLink {
   margin: 60px;
@@ -179,6 +177,19 @@ nav {
   color: #E68556;
 }
 
+.notice > h3 {
+ font-family: "Montserrat", sans-serif;
+ letter-spacing: 5px;
+ color: rgb(80, 80, 80)666;
+ font-size: 1.8rem;
+}
+
+.notice > p {
+  margin-top: -10px;
+  display: inline-block;
+  width: 88%;
+}
+
 .menu {
   display: flex;
   flex-direction: column;
@@ -193,6 +204,41 @@ nav {
 .hide-mobile {
   display: none;
 }
+
+.updt-btn {
+  background-color: #843454; 
+  border: none;
+  border-radius: 16px;
+  color: #ffff;
+  padding: 8px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  outline: none;
+  display: none;
+}
+
+.updt-btn:hover {
+  background-color: #b61354; 
+  transition: 0.6s ease;
+}
+
+.logout{
+  color: rgba(209, 17, 17, 0.959);
+  font-size: 28px;
+  padding: 6px 8px 0 22px;
+  cursor: pointer;
+  display: none;
+}
+
+.logout:hover {
+  font-size: 30px;
+  transition: 0.1s ease;
+}
+
 
 /* Footer */
 footer {
@@ -416,11 +462,11 @@ body {
       padding: 0 1rem;
     }
   
-    .footer-content {
+    /* .footer-content {
       display: flex;
       flex-direction: row;
       padding-top: 20px;
-    }
+    } */
     
     .footer-content .footer-section {
       flex: 1;
@@ -446,13 +492,13 @@ body {
         background: none;
         top: 0;
         height: 30px;
-        right: 700px;
+        right: 540px;
         top: 0;
         display: flex;
         flex-direction: row;
         align-items: center; 
         justify-content: space-between;
-        width: 680px;
+        width: 500px;
         padding: 0;
         }
     
