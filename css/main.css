@@ -134,6 +134,12 @@ nav {
   color: rgb(131, 131, 131);
   font-style: italic;
 }
+
+.bold {
+  font-size: 20px;
+  color: #33383b;
+} 
+
 .take-out {
   background-color: #D2722F; 
   border: none;
@@ -150,6 +156,7 @@ nav {
 }
 .icons {
   margin-top: 30px;
+  /* display: none; */
 }
 
 .icons > a {
@@ -376,11 +383,11 @@ footer {
 }
 
 .fade-in {
-  animation: fadeIn ease 10s;
-  -webkit-animation: fadeIn ease 8s;
-  -moz-animation: fadeIn ease 8s;
-  -o-animation: fadeIn ease 8s;
-  -ms-animation: fadeIn ease 8s;
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
+  -moz-animation: fadeIn ease 4s;
+  -o-animation: fadeIn ease 4s;
+  -ms-animation: fadeIn ease 4s;
 }
 
 
@@ -571,7 +578,7 @@ footer {
         width: 220px;
       }
   
-    .social {
+    .icons {
       display: none;
     }  
 

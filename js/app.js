@@ -19,7 +19,6 @@
   //burger transformation
       burger.classList.toggle('toggle');
   });
-
 }
 
 navSlide();
@@ -66,8 +65,6 @@ const animation = bodymovin.loadAnimation({
 setTimeout(() =>{
 const fade = document.querySelector('.fade');
 fade.style.display = 'block';
-},2000)
-
-
+},3000);
 
 
