@@ -2,7 +2,14 @@
 import {t1,a1,t2,a2,t3,a3,t4,a4,t5,a5,t6,a6,t7,a7,t8,a8,t9,a9,t10,a10,t11,a11,t12,a12,t13,a13,t14,a14,t15,a15,t16,a16,t17,a17,t18,a18,t19,a19,t20,a20,t21,a21,t22,a22,t23,a23,t24,a24,t25,a25,t26,a26,t27,a27,t28,a28,t29,a29,t30,a30,t31,a31,t32,a32,t33,a33,t34,a34,t35,a35,t36,a36,t37,a37,t38,a38,t39,a39,t40,a40,t41,a41,t42,a42,t43,a43,t44,a44,t45,a45,t46,a46,t47,a47,t48,a48,t49,a49,t50,a50,t51,a51,t52,a52,t53,a53,t54,a54,cat1,cat2,cat3,cat4,cat5,cat6,cat7,cat8} from "./data.js";
 //Firebase configuration
 var firebaseConfig = {
-
+  apiKey: "AIzaSyA6-fEJ468i8D8osZbA-cuh0wp1GxCpB4s",
+  authDomain: "tramonti-9a267.firebaseapp.com",
+  databaseURL: "https://tramonti-9a267.firebaseio.com",
+  projectId: "tramonti-9a267",
+  storageBucket: "tramonti-9a267.appspot.com",
+  messagingSenderId: "913007124963",
+  appId: "1:913007124963:web:55aaa8f0be91325fe300d6",
+  measurementId: "G-H1149840L0"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
@@ -89,7 +96,7 @@ subBtn.addEventListener("click", function() {
     t34: t34.innerText, 
     a34: a34.innerText, 
     t35: t35.innerText,
-    a35: a36.innerText, 
+    a35: a35.innerText, 
     t36: t36.innerText, 
     a36: a36.innerText, 
     t37: t37.innerText, 

@@ -15,8 +15,9 @@ function openModal() {
 };
 
 function closeModal() {
-  modalLog.style.display = 'none';
+  // modalLog.style.display = 'none';
   hide.classList.toggle('close');
+  // modal.style.display = 'none';
   setTimeout(function (){
     hide.classList.remove('close');
     hide.classList.remove('show');
@@ -32,11 +33,11 @@ function editContent(){
   
 };
 
-// function clickOutside(e) {
-//   if(e.target === modal){
-//     modal.style.display = 'none';
-//   }
-// };
+function clickOutside(e) {
+  if(e.target === modal){
+    modal.style.display = 'none';
+  }
+};
 
 //Listen for clicks
 editBtn.addEventListener('click', editContent);
@@ -44,5 +45,5 @@ closeBtnLogIn.addEventListener('click', closeModal);
 // modalBtn.addEventListener('click', openModal);
 // specialLink.addEventListener('click', openModal);
 // closeBtn.addEventListener('click', closeModal);
-// window.addEventListener('click', clickOutside);
+window.addEventListener('click', clickOutside);
 

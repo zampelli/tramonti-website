@@ -13,7 +13,7 @@
       href="https://fonts.googleapis.com/css?family=Alef|Signika&display=swap"
       rel="stylesheet"
     />
-    <!-- Foon awesome -->
+    <!-- Foont awesome -->
     <script defer type="text/javascript">
       (function() {
         var css = document.createElement("link");
@@ -25,8 +25,8 @@
     </script>
     <!-- Css stylesheet -->
     <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
-    <link rel="stylesheet" href="/css/menu.css?v1" />
-    <link rel="stylesheet" href="/css/modal.css?v1" />
+    <link rel="stylesheet" href="/css/menu.css?v1.02" />
+    <link rel="stylesheet" href="/css/modal.css?v1.02" />
 
     <title>Tramonti</title>
   </head>
@@ -39,14 +39,27 @@
         /></a>
       </div>
       <ul class="nav-links">
-        <li class="top"><a href="/index.html">Home</a></li>
-        <li><a href="/wine-list.html">Wine List</a></li>
+        <li class="hide-mobile"><a href="/index.html">Home</a></li>
+        <li class="hide-mobile"><a href="/wine-list.html">Wine List</a></li>
         <li class="hide-mobile"><a href="/index.html#about">About</a></li>
-        <li class="hide-desktop">
-          <a href="mailto:info@tramontisantacruz.com">Contact</a>
+        <li class="hide-desktop top">
+          <a href="/menu.html"
+            ><button class="nav-btn">Restaurant Menu</button></a
+          >
         </li>
-        <!-- <li><a href="#"><button class="buttonS modalBtn hide-mobile">Specials</button></a></li>
-      <li><a href="/wine-club.html"><button class="button">Wine Club</button></a></li> -->
+        <li class="hide-desktop">
+          <a href="/grab&go.html"
+            ><button class="nav-btn">Grab & Go Menu</button></a
+          >
+        </li>
+        <li class="hide-desktop">
+          <a href="/wine-list.html"
+            ><button class="nav-btn-p">Wine List</button></a
+          >
+        </li>
+        <!-- <li class="hide-desktop hide-mobile">
+          <a href="mailto:info@tramontisantacruz.com">Contact</a>
+        </li> -->
         <li>
           <a href="https://www.facebook.com/tramontisantacruz"
             ><i class="fac fab fa-facebook-f i "></i
@@ -57,7 +70,15 @@
             ><i class="insta fab fa-instagram i "></i
           ></a>
         </li>
-        <!-- <li><a href="https://goo.gl/maps/stg311yP5R26osiU8"><i class="map fas fa-map-marker-alt i "></i></a></li> -->
+        <a class="hide-desktop" href="tel:831 426 7248"
+          ><li><img class="icon-mob" src="img/call icon.svg" alt="Call" /></li
+        ></a>
+
+        <li class="hide-mobile">
+          <a href="https://goo.gl/maps/stg311yP5R26osiU8"
+            ><i class="map fas fa-map-marker-alt i "></i
+          ></a>
+        </li>
         <li><i class="hide-mobile edit far fa-edit"></i></li>
       </ul>
       <div class="burger">
@@ -100,13 +121,27 @@
       <div class="notice">
         <h3>Tramonti News</h3>
         <p>
-          Call 831 426 7248 to place your order, we offer 10% discount for
-          pick-up orders or we deliver directly from our kitchen to your door.
+          Call 831 426 7248 or 831 239 0685 to place your order, we offer 10%
+          discount for pick-up orders or we deliver directly from our kitchen to
+          your door.
         </p>
       </div>
-      <a href="tel:1-831-426-7248"
-        ><img class="icon-mob" src="img/call icon.svg" alt="Call"
-      /></a>
+      <div class="icon">
+        <a href="tel:1-831-426-7248"
+          ><img class="icon-mob" src="img/call icon.svg" alt="Call"
+        /></a>
+        <a href="https://www.youtube.com/watch?v=ZvFxgS4aVYk&t=29s"
+          ><img
+            class="icon-mob lg"
+            src="/img/iconfinder_youtube_317714.svg"
+            alt=""
+        /></a>
+      </div>
+      <div class="deli-btn">
+        <a class=" hide-mobile" href="/grab&go.html"
+          ><button class="take-out">Grab & Go Menu</button></a
+        >
+      </div>
       <div class="editable" contenteditable="">
         <div class="appetizer">
           <h1 class="catg-text cat1"></h1>
@@ -295,36 +330,52 @@
         duration: 500
       });
     </script> -->
-    <script type="module" src="/js/editor.js?v=1.0"></script>
-    <script src="/js/toggle.js?v=1.0"></script>
-    <script src="/js/modal.js"></script>
+    <script type="module" src="/js/editor.js?v=1.01"></script>
+    <script src="/js/toggle.js?v=1.01"></script>
+    <script src="/js/modal.js?v=1.01"></script>
   </body>
 </html>
 
 <!-- <div id="modalSpecial" class="modal">
-      <div class="modal-content">
-        <div class="rightt">
-          <span class="close-btn"><i class="fas fa-times"></i></span>
-          <span class="hide-mobile"><i class="log-out fas fa-sign-out-alt"></i></span>
+        <div class="modal-content">
+          <div class="rightt">
+            <span class="close-btn"><i class="fas fa-times"></i></span>
+          </div>
+          <div class="text-content">
+            <h1>Appetizer</h1>
+            <h3>OLIVES | GIARDINIERA</h3>
+            <p>EVOO cured olives | Italian pickled veggies $4</p>
+            <h3>CAPONATA</h3>
+            <p>Sicilian style sautéed veggies “agrodolce” $5</p>
+            <h3>ANTIPASTO MISTO</h3>
+            <p>Prosciutto, Ham, Salami, & cheeses $19</p>
+            <h3>SOUP OF THE DAY</h3>
+            <p>Made with organic veggies $6</p>
+            <h3>CHICKEN or TUNA SALAD</h3>
+            <p>Ask for details about today’s original recipe $5/6</p>
+            <h3>CAESAR SALAD</h3>
+            <p>Romaine, croutons, parmigiano & homemade caesar $5</p>
+            <h1>Our Sauces</h1>
+            <h3>MARINARA</h3>
+            <p>Organic S.Marzano tomato, basil, garlic & EVOO $6</p>
+            <h3>PESTO GENOVESE</h3>
+            <p>Parmigiano, Pecorino, basil, pine nuts & EVOO $8</p>
+            <h3>BOLOGNESE RAGU’</h3>
+            <p>Grandma Enza’s meat sauce !! $8</p>
+            <h3>4 CHEESE</h3>
+            <p>Made with organic veggies $6</p>
+            <h3>TRUFFLE MUSHROOM</h3>
+            <p>Ask for details about today’s original recipe $8</p>
+            <h3>AMATRICIANA</h3>
+            <p>Guanciale, onion, Calabrese & marinara $7</p>
+            <div class="red">
+              <h4>Cheese Selection</h4>
+              <p class="cheeses">
+                Burrata $5 | Mozzarella $3 &nbsp;
+                <span class="orange">sold by weight:</span> Parmigiano Reggiano
+                | Pecorino Romano | Fontina | Gorgonzola
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="pops-out">
-            <span class="log-out-pop">You are logged out!</span>
-        </div>
-        <div class="text-content" contenteditable="">
-          <h1>Specials of the day</h1>
-          <h3 id="title-appetizer" ></h3>
-          <p id="appet-descr"></p>
-          <h3 id="title-first"></h3>
-          <p id="first-descr"></p>
-          <h3 id="title-second"></h3>
-          <p id="second-descr"></p>
-          <h3 id="title-third"></h3>
-          <p id="third-descr"></p>
-        </div>
-        <div class="update-pop">
-            <span class="update">Update Succefully</span>
-           </div>
-
-      </div>
-  
-    </div> -->
+      </div> -->

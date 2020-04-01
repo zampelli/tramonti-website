@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <!-- Css stylesheet -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="stylesheet" href="/css/main.css?v=1.0">
+  <link rel="stylesheet" href="/css/main.css?v=1.02">
   <title>Tramonti</title>
 </head>
 
@@ -25,15 +25,19 @@
       <a href="#home"><img src="/img/navBarTramontiLogo.svg" alt=""></a>
     </div>
     <ul class="nav-links">
-      <li class="top"><a href="/index.html">Home</a></li>
-      <li><a href="/menu.html">Menu</a></li>
-      <li><a href="/wine-list.html">Wine List</a></li>
-      <li class="hide-mobile"><a href="#about">About</a></li>
-      <li class="hide-desktop"><a href="mailto:info@tramontisantacruz.com">Contact</a></li>
-      <!-- <li><a href="/wine-club.html"><button class="button">Wine Club</button></a></li> -->
+      <li class="hide-mob"><a href="/index.html">Home</a></li>
+      <li class="hide-mob"><a href="/menu.html">Menu</a></li>
+      <li class="hide-mob"><a href="/wine-list.html">Wine List</a></li>
+      <li class="hide-mob"><a href="#about">About</a></li>
+      <!-- <li class="hide-desktop hide-mobile"><a href="mailto:info@tramontisantacruz.com">Contact</a></li> -->
+      <li class="hide-desktop top"><a href="/menu.html"><button class="nav-btn"> Restaurant Menu</button></a></li>
+      <li class="hide-desktop"><a href="/grab&go.html"><button class="nav-btn">Grab & Go Menu</button></a></li>
+      <li class="hide-desktop"><a href="/wine-list.html"><button class="nav-btn-p">Wine List</button></a></li>
       <li><a href="https://www.facebook.com/tramontisantacruz"><i class="fac fab fa-facebook-f"></i></a></li>
       <li><a href="https://www.instagram.com/tramonti_santacruz/"><i class="insta fab fa-instagram "></i></a></li>
-      <li><a href="https://goo.gl/maps/stg311yP5R26osiU8"><i class="map fas fa-map-marker-alt "></i></a></li>
+      <li class="hide-mob"><a href="https://goo.gl/maps/stg311yP5R26osiU8"><i class="map fas fa-map-marker-alt "></i></a></li>
+      <li><a href="https://www.youtube.com/watch?v=ZvFxgS4aVYk&t=29s"><img class="nav-icon" src="/img/iconfinder_youtube_317714.svg" alt="youtube icon"></a></li>
+      <a class="hide-desktop" href="tel:831 426 7248"><li><img class="icon-mob" src="img/call icon.svg" alt="Call"/></li></a>
     </ul>
     <div class="burger">
       <div class="line1"></div>
@@ -58,11 +62,13 @@
         <a href="#welcome"><img class="scroll" src="/img/circle-arrow-down.svg" alt="Scroll Down"></a>
       </div> -->
     </header>
-    <div class="fade">
-    <p class="inf">We are open for <span class="bold">take-out</span> and <span class="bold">delivery</span> every day from 11:30am to 9:00pm <span class="bold">831 426 7248</span><a href="tel:1-831-426-7248"><i class="fas fa-phone-square-alt"></i></a></span></p>
-    <a href="/menu.html"><button class="take-out">Daily Menu</button></a>
+    
+    <div class='fade'>
+    <p class="inf">We are open for <span class="bold">take-out</span> and <span class="bold">delivery</span> every day from 11:30am to 9:00pm <span class="bold">831 426 7248</span> or <span class="bold">831 239 0685</span></p>
+    <a href="/menu.html"><button class="fadee take-out">Daily Menu</button></a> 
   </div>
   </section>
+  
 
 
   <section class="sectionOne" id="welcome" data-aos="fade-right">
@@ -141,7 +147,7 @@
     duration: 1000,
 });
 </script>
-<script src="/js/app.js?v=1.0"></script> 
+<script src="/js/app.js?v=1.01"></script> 
 </body>
 
 </html>
