@@ -1,6 +1,7 @@
 // importing all the elements from the DOM I use the export to keep all the data in another file
-import {t1,a1,t2,a2,t3,a3,t4,a4,t5,a5,t6,a6,t7,a7,t8,a8,t9,a9,t10,a10,t11,a11,t12,a12,t13,a13,t14,a14,t15,a15,t16,a16,t17,a17,t18,a18,t19,a19,t20,a20,t21,a21,t22,a22,t23,a23,t24,a24,t25,a25,t26,a26,t27,a27,t28,a28,t29,a29,t30,a30,t31,a31,t32,a32,t33,a33,t34,a34,t35,a35,t36,a36,t37,a37,t38,a38,t39,a39,t40,a40,t41,a41,t42,a42,t43,a43,t44,a44,t45,a45,t46,a46,t47,a47,t48,a48,t49,a49,t50,a50,t51,a51,t52,a52,t53,a53,t54,a54,cat1,cat2,cat3,cat4,cat5,cat6,cat7,cat8} from "./data.js";
-//Firebase configuration
+// NOTE: LAST DESSERT ITEM DEACTIVETED 
+import {t1,a1,t2,a2,t3,a3,t4,a4,t5,a5,t6,a6,t7,a7,t8,a8,t9,a9,t10,a10,t11,a11,t12,a12,t13,a13,t14,a14,t15,a15,t16,a16,t17,a17,t18,a18,t19,a19,t20,a20,t21,a21,t22,a22,t23,a23,t24,a24,t25,a25,t26,a26,t27,a27,t28,a28,t29,a29,t30,a30,t31,a31,t32,a32,t33,a33,t34,a34,t35,a35,t36,a36,t37,a37,t38,a38,t39,a39,t40,a40,t41,a41,t42,a42,t43,a43,t44,a44,t45,a45,t46,a46,t47,a47,t48,a48,t49,a49,t50,a50,t51,a51,t52,a52,t53,a53,t55,a55,t56,a56,t57,a57,t58,a58,t59,a59,t60,a60,t61,a61,t62,a62,t63,a63,t64,a64,cat1,cat2,cat3,cat4,cat5,cat6,cat7,cat8,cat9} from "./data.js";
+// Firebase configuration
 var firebaseConfig = {
   apiKey: "AIzaSyA6-fEJ468i8D8osZbA-cuh0wp1GxCpB4s",
   authDomain: "tramonti-9a267.firebaseapp.com",
@@ -133,8 +134,28 @@ subBtn.addEventListener("click", function() {
     a52: a52.innerText,
     t53: t53.innerText,
     a53: a53.innerText,
-    t54: t54.innerText,
-    a54: a54.innerText,
+    // t54: t54.innerText,
+    // a54: a54.innerText,
+    t55: t55.innerText,
+    a55: a55.innerText,
+    t56: t56.innerText,
+    a56: a56.innerText,
+    t57: t57.innerText,
+    a57: a57.innerText,
+    t58: t58.innerText,
+    a58: a58.innerText,
+    t59: t59.innerText,
+    a59: a59.innerText,
+    t60: t60.innerText,
+    a60: a60.innerText,
+    t61: t61.innerText,
+    a61: a61.innerText,
+    t62: t62.innerText,
+    a62: a62.innerText,
+    t63: t63.innerText,
+    a63: a63.innerText,
+    t64: t64.innerText,
+    a64: a64.innerText,
     cat1: cat1.innerText,
     cat2: cat2.innerText,
     cat3: cat3.innerText,
@@ -142,7 +163,8 @@ subBtn.addEventListener("click", function() {
     cat5: cat5.innerText,
     cat6: cat6.innerText,
     cat7: cat7.innerText,
-    cat8: cat8.innerText
+    cat8: cat8.innerText,
+    cat9: cat9.innerText
   };
   ref.child("menu-items").update(data);
   updatePop.style.visibility = 'visible';
@@ -152,7 +174,6 @@ subBtn.addEventListener("click", function() {
 });
 
 // read data from database
-// note make more functions like gotData to retrieve all the data
 ref.on("value", getData, errorData);
 
 function getData(data) {
@@ -267,8 +288,28 @@ function getData(data) {
     let desc52 = items[k].a52;
     let tit53 = items[k].t53;
     let desc53 = items[k].a53;
-    let tit54 = items[k].t54;
-    let desc54 = items[k].a54;
+    // let tit54 = items[k].t54;
+    // let desc54 = items[k].a54;
+    let tit55 = items[k].t55;
+    let desc55 = items[k].a55;
+    let tit56 = items[k].t56;
+    let desc56 = items[k].a56;
+    let tit57 = items[k].t57;
+    let desc57 = items[k].a57;
+    let tit58 = items[k].t58;
+    let desc58 = items[k].a58;
+    let tit59 = items[k].t59;
+    let desc59 = items[k].a59;
+    let tit60 = items[k].t60;
+    let desc60 = items[k].a60;
+    let tit61 = items[k].t61;
+    let desc61 = items[k].a61;
+    let tit62 = items[k].t62;
+    let desc62 = items[k].a62;
+    let tit63 = items[k].t63;
+    let desc63 = items[k].a63;
+    let tit64 = items[k].t64;
+    let desc64 = items[k].a64;
     let category1  = items[k].cat1;
     let category2  = items[k].cat2;
     let category3  = items[k].cat3;
@@ -277,6 +318,7 @@ function getData(data) {
     let category6  = items[k].cat6;
     let category7  = items[k].cat7;
     let category8  = items[k].cat8;
+    let category9  = items[k].cat9;
 
     //dinamically changing the content on the page with new content from database
     t1.innerHTML = tit1;
@@ -385,8 +427,28 @@ function getData(data) {
     a52.innerHTML = desc52;
     t53.innerHTML = tit53;
     a53.innerHTML = desc53;
-    t54.innerHTML = tit54;
-    a54.innerHTML = desc54;
+    // t54.innerHTML = tit54;
+    // a54.innerHTML = desc54;
+    t55.innerHTML = tit55;
+    a55.innerHTML = desc55;
+    t56.innerHTML = tit56;
+    a56.innerHTML = desc56;
+    t57.innerHTML = tit57;
+    a57.innerHTML = desc57;
+    t58.innerHTML = tit58;
+    a58.innerHTML = desc58;
+    t59.innerHTML = tit59;
+    a59.innerHTML = desc59;
+    t60.innerHTML = tit60;
+    a60.innerHTML = desc60;
+    t61.innerHTML = tit61;
+    a61.innerHTML = desc61;
+    t62.innerHTML = tit62;
+    a62.innerHTML = desc62;
+    t63.innerHTML = tit63;
+    a63.innerHTML = desc63;
+    t64.innerHTML = tit64;
+    a64.innerHTML = desc64;
     cat1.innerHTML = category1;
     cat2.innerHTML = category2;
     cat3.innerHTML = category3;
@@ -395,6 +457,7 @@ function getData(data) {
     cat6.innerHTML = category6;
     cat7.innerHTML = category7;
     cat8.innerHTML = category8;
+    cat9.innerHTML = category9;
   
   }
 }

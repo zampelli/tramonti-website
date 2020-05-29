@@ -174,11 +174,20 @@ nav {
   margin-top: 0px;
   color: rgb(131, 131, 131);
   font-style: italic;
+  width: 80%;
+  display: inline-block;
 }
+
 
 .bold {
   font-size: 20px;
   color: #33383b;
+  text-decoration: none;
+}
+
+.link {
+  font-size: 20px;
+  color: #d2722f;
 }
 
 .take-out {
@@ -314,6 +323,7 @@ footer {
 .footer-content {
   display: flex;
   flex-direction: column;
+  padding-bottom: 2rem;
 }
 
 .footer-content .footer-section {
@@ -699,7 +709,7 @@ footer {
   }
 
   #bm {
-    width: 340px;
+    width: 420px;
     margin-top: -30px;
   }
 

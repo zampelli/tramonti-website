@@ -230,7 +230,16 @@ nav {
   width: 100% !important;
 }
 
+.bold {
+  text-decoration: none;
+  font-size: 20px;
+  color: #33383b;
+  cursor: pointer;
+}
 
+.delivery {
+  margin: 20px 0 40px 0;
+}
 
 .icon-mob {
   padding: 0 10px;
@@ -257,6 +266,10 @@ nav {
   margin-top: -80px;
 } 
 
+.text-content {
+  margin-top: 60px;
+}
+
 .text-content > .red {
   margin-top: 90px;
   color: #d2722f;
@@ -281,6 +294,22 @@ nav {
 }
 
 .updt-btn {
+  background-color: #843454;
+  border: none;
+  border-radius: 16px;
+  color: #ffff;
+  padding: 8px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  outline: none;
+  display: none;
+}
+
+.save-btn {
   background-color: #843454;
   border: none;
   border-radius: 16px;

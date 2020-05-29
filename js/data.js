@@ -106,6 +106,26 @@ export const t53 = document.querySelector('.t53');
 export const a53 = document.querySelector('.a53');
 export const t54 = document.querySelector('.t54');
 export const a54 = document.querySelector('.a54');
+export const t55 = document.querySelector('.t55');
+export const a55 = document.querySelector('.a55');
+export const t56 = document.querySelector('.t56');
+export const a56 = document.querySelector('.a56');
+export const t57 = document.querySelector('.t57');
+export const a57 = document.querySelector('.a57');
+export const t58 = document.querySelector('.t58');
+export const a58 = document.querySelector('.a58');
+export const t59 = document.querySelector('.t59');
+export const a59 = document.querySelector('.a59');
+export const t60 = document.querySelector('.t60');
+export const a60 = document.querySelector('.a60');
+export const t61 = document.querySelector('.t61');
+export const a61 = document.querySelector('.a61');
+export const t62 = document.querySelector('.t62');
+export const a62 = document.querySelector('.a62');
+export const t63 = document.querySelector('.t63');
+export const a63 = document.querySelector('.a63');
+export const t64 = document.querySelector('.t64');
+export const a64 = document.querySelector('.a64');
 export const cat1 = document.querySelector('.cat1');
 export const cat2 = document.querySelector('.cat2');
 export const cat3 = document.querySelector('.cat3');
@@ -114,6 +134,7 @@ export const cat5 = document.querySelector('.cat5');
 export const cat6 = document.querySelector('.cat6');
 export const cat7 = document.querySelector('.cat7');
 export const cat8 = document.querySelector('.cat8');
+export const cat9 = document.querySelector('.cat9');
 
 
 

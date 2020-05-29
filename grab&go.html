@@ -24,8 +24,8 @@
  <!-- Css stylesheet -->
  <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
  
- <link rel="stylesheet" href="/css/menu.css?v1.03" />
- <link rel="stylesheet" href="/css/modal.css?v1.03" />
+ <link rel="stylesheet" href="/css/menu.css?v1.05" />
+ <link rel="stylesheet" href="/css/modal.css?v1.04" />
   <title>Tramonti</title>
 </head>
 <body>
@@ -77,42 +77,57 @@
     <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/ZvFxgS4aVYk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 
-  <div class="text-content">
+  <div class="text-content editable" contenteditable=""> 
     <!-- <h1>Deli Menu</h1> -->
-    <h1>Appetizer</h1>
-    <h3 >OLIVES | GIARDINIERA</h3>
-    <p>EVOO cured olives | Italian pickled veggies $4</p>
-    <h3>CAPONATA</h3>
-    <p>Sicilian style sautéed veggies “agrodolce” $5</p>
-    <h3>ANTIPASTO MISTO</h3>
-    <p>Prosciutto, Ham, Salami, & cheeses $19</p>
-    <h3>SOUP OF THE DAY</h3>
-    <p>Made with organic veggies $6</p>
-    <h3>CHICKEN or TUNA SALAD</h3>
-    <p>Ask for details about today’s original recipe $5/6</p>
-    <h3>CAESAR SALAD</h3>
-    <p>Romaine, croutons, parmigiano & homemade caesar $5</p>
-    <h1>Our Sauces</h1>
-    <h3 >MARINARA</h3>
-    <p>Organic S.Marzano tomato, basil, garlic & EVOO $6</p>
-    <h3>PESTO GENOVESE</h3>
-    <p>Parmigiano, Pecorino, basil, pine nuts & EVOO $8</p>
-    <h3>BOLOGNESE RAGU’</h3>
-    <p>Grandma Enza’s meat sauce !! $8</p>
-    <h3>4 CHEESE</h3>
-    <p>Made with organic veggies $6</p>
-    <h3>TRUFFLE MUSHROOM</h3>
-    <p>With Pecorino, garlic, rosemary & white truffle $8</p>
-    <h3>AMATRICIANA</h3>
-    <p>Guanciale, onion, Calabrese & marinara $7</p>
+    <h1 class="cat">Appetizer</h1>
+    <h3 class="t1">OLIVES | GIARDINIERA</h3>
+    <p class="a1">EVOO cured olives | Italian pickled veggies $4</p>
+    <h3 class="t2">CAPONATA</h3>
+    <p class="a2">Sicilian style sautéed veggies “agrodolce” $5</p>
+    <h3 class="t3">ANTIPASTO MISTO</h3>
+    <p class="a3">Prosciutto, Ham, Salami, & cheeses $19</p>
+    <h3 class="t4">SOUP OF THE DAY</h3>
+    <p class="a4">Made with organic veggies $6</p>
+    <h3 class="t5">CHICKEN or TUNA SALAD</h3>
+    <p class="a5">Ask for details about today’s original recipe $5/6</p>
+    <h3 class="t6">CAESAR SALAD</h3>
+    <p class="a6">Romaine, croutons, parmigiano & homemade caesar $5</p>
+    <h1 class="cat2">Our Sauces</h1>
+    <h3 class="t7" >MARINARA</h3>
+    <p class="a7">Organic S.Marzano tomato, basil, garlic & EVOO $6</p>
+    <h3 class="t8">PESTO GENOVESE</h3>
+    <p class="a8">Parmigiano, Pecorino, basil, pine nuts & EVOO $8</p>
+    <h3 class="t9">BOLOGNESE RAGU’</h3>
+    <p class="a9">Grandma Enza’s meat sauce !! $8</p>
+    <h3 class="t10">4 CHEESE</h3>
+    <p class="a10">Made with organic veggies $6</p>
+    <h3 class="t11">TRUFFLE MUSHROOM</h3>
+    <p class="a11">With Pecorino, garlic, rosemary & white truffle $8</p>
+    <h3 class="t12">AMATRICIANA</h3>
+    <p class="a12">Guanciale, onion, Calabrese & marinara $7</p>
     <div class="red">
     <h4>Cheese Selection</h4>
     <p class="cheeses">
       Burrata $5 | Mozzarella $3  &nbsp; <span class="orange">sold by weight:</span> Parmigiano Reggiano | Pecorino Romano | Fontina | Gorgonzola 
     </p>
   </div>
+  <div class="pops-out">
+    <span class="log-out-pop">You are logged out!</span>
   </div>
-</div>
+  <div class="update-pop">
+    <span class="update">Update Succefully</span>
+  </div>
+   <div class="center">
+    <button class="save-btn hide-btn">Update</button>
+    <i class="logout fas fa-sign-out-alt"></i>
+   </div>
+  </div>
+
+<script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-auth.js"></script>
+<script src="/js/edit.js?v=1"></script>
+<script src="/js/toggle.js?v=1.01"></script>
 
 </body>
 </html>
