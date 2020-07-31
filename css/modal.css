@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes|Montserrat:400,500|Roboto:400,700&display=swap");
+
+.button {
+  background-color: #843454; 
+  border: none;
+  border-radius: 16px;
+  color: rgb(248, 248, 248);
+  padding: 8px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.take-out {
+  background-color: #D2722F; 
+  border: none;
+  border-radius: 16px;
+  color: rgb(248, 248, 248);
+  padding: 8px 28px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  outline:none;
+  margin-top: 20px;
+}
+
+.deli-btn {
+  margin-top: 60px;
+  z-index: 20;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background: rgb(0,0,0,0.3);
+}
+
+.modal-content {
+  background-color: #f4f4f4;
+  margin: 6% auto;
+  padding: 20px;
+  width: 80%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  animation-name: modalopen;
+  animation-duration: 0.5s;
+  background-image: url(/img/modalBg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.text-content {
+  text-align: center;
+  padding-bottom: 60px;
+  outline: none;
+}
+
+.text-content > h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 4rem;
+  color: #B40404;
+  font-weight: lighter;
+}
+
+.text-content > h3 {
+  font-family: 'Alef', sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+}
+
+.text-content > p {
+  line-height: 2;
+  padding-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(78, 78, 78);
+}
+
+.rightt {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.close-btn {
+  font-size: 28px;
+  color: #adadad;
+}
+.close-log-in {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 28px;
+  color: rgb(235, 235, 235);
+  cursor: pointer;
+  margin-right: -48px;
+}
+
+.close-log-in:hover {
+  font-size: 32px;
+  transition: ease 0.2s;
+  color: #f4f4f4;
+}
+
+
+.edit {
+  color: rgb(43, 44, 45);
+  font-size: 20px;
+  margin-top: -6px;
+  cursor: pointer;
+  
+}
+
+.edit:hover {
+  color: #0f7ec7;
+}
+
+
+.close-btn:hover, .close-btn:focus {
+  color: rgb(29, 29, 29);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.edit-btn:hover, .edit-btn:focus {
+  color: #1CACF4;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center > i {
+  padding: 1rem;
+}
+
+.log-in {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.pops-up {
+  background: rgb(45, 153, 26);
+  width: 100%;
+  height: 3vh;
+  display: none;
+}
+
+.update-pop {
+  display: flex;
+  justify-content: center;
+  background: rgb(45, 153, 26);
+  margin-bottom: 50px;
+  visibility: hidden;
+}
+.update {
+  padding: 1rem;
+  color: #ffffff;
+}
+
+.pops-out {
+  background: rgb(153, 26, 37);
+  width: 100%;
+  height: 3vh;
+  display: none;
+}
+
+
+.log-in-pop {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  padding: 0.4rem;
+}
+
+.log-out-pop {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  padding: 0.4rem;
+}
+
+.show {
+  display: block !important;
+}
+
+.close {
+  display: none !important;
+}
+
+.modal-log-in {
+ background: #ffffff;
+ z-index: 100;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ padding: 1rem 4rem;
+ width: 500px;
+ top: 50%;
+ left: 50%;
+ position: fixed;
+ transform: translate(-50%,-50%);
+ margin: auto;
+ display: none;
+ box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+ animation-name: modalopen;
+ animation-duration: 0.2s;
+}
+
+.modal-log-in > h1 {
+  color: #2890d6;
+  font-family: "Alef", serif;
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: 4px;
+} 
+
+.modal-log-in input[type = 'email'], .modal-log-in input[type = 'password'] {
+  border: 0;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 1px solid rgb(0, 116, 248);
+  padding: 14px 10px;
+  width: 180px;
+  border-radius: 24px;
+  outline: none;
+  transition: 0.24s;
+}
+
+.modal-log-in input[type = 'email']:focus, .modal-log-in input[type = 'password']:focus {
+  width: 200px;
+}
+
+
+.btn {
+  border: 0;
+  display: block;
+  margin: 50px auto;
+  text-align: center;
+  border: 1px solid rgb(146, 72, 216);
+  background-color: #fff !important;
+  padding: 14px 40px;
+  border-radius: 24px;
+  outline: none;
+  transition: 0.24s;
+  cursor: pointer;
+}
+
+@keyframes modalopen {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+.modal-btn {
+  margin-top: 40px;
+  background-color: #843454; 
+  border: none;
+  border-radius: 16px;
+  color: rgb(248, 248, 248);
+  padding: 8px 18px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: none;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  outline: none;
+}
+
+
+@keyframes modalopen {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+@media (max-width: 414px) {
+  .modal-content {
+    width: 100%;
+  }
+  .text-content > h1 {
+    font-size: 3rem;
+    font-family: 'Great vibes', cursive;
+  }
+  .text-content > h3 {
+    font-size: 1.4rem;
+  }
+  .text-content > p {
+    font-size: 0.9rem;
+  }
+  .hide-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 380px){
+  .text-content > p {
+   line-height: 1.2;
+  }
+}
