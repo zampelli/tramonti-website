@@ -49,9 +49,8 @@ nav {
   margin-top: 140px;
 }
 
-
 .nav-btn {
-  background-color: #D2722F; 
+  background-color: #d2722f;
   border: none;
   border-radius: 16px;
   color: rgb(248, 248, 248);
@@ -63,7 +62,7 @@ nav {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
-  outline:none;
+  outline: none;
 }
 
 .nav-btn-p {
@@ -79,7 +78,7 @@ nav {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
-  outline:none;
+  outline: none;
 }
 
 .logo img {
@@ -95,7 +94,7 @@ nav {
 }
 
 .nav-links a .icon-mob {
-  width: 35px
+  width: 35px;
 }
 
 .button {
@@ -159,6 +158,37 @@ nav {
   transform: translateX(0%);
 }
 
+/* Restaurant week modal */
+.modal {
+  position: relative;
+  display: none;
+  transform: scale(0);
+  animation: zoomIn 0.4s 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+
+.modal-size {
+  position: absolute;
+  margin: auto;
+  top: -300px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.close {
+  position: relative;
+  cursor: pointer;
+  width: 22px;
+  float: right;
+  margin-right: -10px;
+  margin-bottom: -12px;
+}
+
+.flyer {
+  width: 100%;
+}
+/* ----------------------------- */
+
 /* Home Section */
 #bm {
   margin-left: -10px;
@@ -177,7 +207,6 @@ nav {
   width: 100%;
   display: inline-block;
 }
-
 
 .bold {
   font-size: 20px;
@@ -440,6 +469,15 @@ footer {
   -ms-animation: fadeIn ease 4s;
 }
 
+@keyframes zoomIn {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -644,7 +682,6 @@ footer {
     border: none;
     text-align: center;
   }
-
 }
 
 @media only screen and (min-width: 1024px) {
@@ -654,11 +691,10 @@ footer {
     align-items: center;
     min-height: 2vh;
   }
-  
+
   .logo > img {
     width: 100px;
   }
-
 
   .nav-links {
     position: relative;
@@ -687,7 +723,6 @@ footer {
   .top {
     margin-top: 0;
   }
-  
 
   .nav-links li {
     opacity: 1;
@@ -777,6 +812,10 @@ footer {
 @media only screen and (min-width: 1224px) {
   .content {
     display: flex;
+  }
+
+  .modal-size {
+    top: -450px;
   }
 
   .content-text {

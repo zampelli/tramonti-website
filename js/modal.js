@@ -9,6 +9,18 @@ const closeBtnLogIn = document.querySelector('.close-log-in');
 const editBtn = document.querySelector('.edit');
 const hide = document.querySelector('.hide');
 const show = document.querySelector('.show');
+const flyer = document.querySelector('.modal');
+
+//Reastaurant week modal
+//show modal after 1.5second page ready
+function popUp(time) {
+ return time = setTimeout(() => {
+   console.log(flyer.innerHTML);
+ }, 1500)
+}
+
+popUp();
+//close on click
 
 function openModal() {
   modal.style.display = 'block';
