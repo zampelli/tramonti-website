@@ -54,14 +54,8 @@ nav {
   margin-top: 140px;
 }
 
-<<<<<<< HEAD
-.nav-btn {
-  background-color: #d2722f;
-=======
-
 .nav-btn {
   background-color: #D2722F; 
->>>>>>> 6225f894af546081ba801cbf16ecab1ccdc3bc66
   border: none;
   border-radius: 16px;
   color: rgb(248, 248, 248);
@@ -73,6 +67,7 @@ nav {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
+}
 
 .nav-btn-p {
   background-color: #843454;
@@ -87,11 +82,7 @@ nav {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
-<<<<<<< HEAD
   outline: none;
-=======
-  outline:none;
->>>>>>> 6225f894af546081ba801cbf16ecab1ccdc3bc66
 }
 
 .logo img {
@@ -172,7 +163,7 @@ nav {
   transform: translateX(0%);
 }
 
-<<<<<<< HEAD
+
 /* Restaurant week modal */
 .modal {
   position: relative;
@@ -223,10 +214,6 @@ nav {
   display: inline-block;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 6225f894af546081ba801cbf16ecab1ccdc3bc66
 .bold {
   font-size: 20px;
   color: #33383b;
