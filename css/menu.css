@@ -31,6 +31,12 @@ body {
   font-size: 1.2rem !important;
 }
 
+.big-offer {
+  margin-top: -12px;
+  font-size: 1.6rem !important;
+  color: #a9232a;
+}
+
 .cat {
   color: #a9232a;
 }
@@ -61,6 +67,19 @@ p {
 span {
   font-size: 14px;
   color: #e68556;
+}
+
+.close {
+  position: relative;
+  cursor: pointer;
+  width: 22px;
+  float: right;
+  margin-right: -10px;
+  margin-bottom: -12px;
+}
+
+.flyer {
+  width: 100%;
 }
 
 /* Nav Bar */
