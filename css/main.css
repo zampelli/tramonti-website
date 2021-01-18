@@ -9,6 +9,10 @@ body {
   min-height: 100vh;
 }
 
+.capitalize{
+  text-transform: uppercase !important;
+}
+
 .wrapper {
   overflow-x: hidden !important;
   background: url(/img/ivoryBg.jpg);
