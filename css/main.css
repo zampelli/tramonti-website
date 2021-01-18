@@ -13,6 +13,7 @@ body {
   text-transform: uppercase !important;
 }
 
+
 .wrapper {
   overflow-x: hidden !important;
   background: url(/img/ivoryBg.jpg);
@@ -53,8 +54,14 @@ nav {
   margin-top: 140px;
 }
 
+<<<<<<< HEAD
 .nav-btn {
   background-color: #d2722f;
+=======
+
+.nav-btn {
+  background-color: #D2722F; 
+>>>>>>> 6225f894af546081ba801cbf16ecab1ccdc3bc66
   border: none;
   border-radius: 16px;
   color: rgb(248, 248, 248);
@@ -66,8 +73,6 @@ nav {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
-  outline: none;
-}
 
 .nav-btn-p {
   background-color: #843454;
@@ -82,7 +87,11 @@ nav {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
+<<<<<<< HEAD
   outline: none;
+=======
+  outline:none;
+>>>>>>> 6225f894af546081ba801cbf16ecab1ccdc3bc66
 }
 
 .logo img {
@@ -99,6 +108,7 @@ nav {
 
 .nav-links a .icon-mob {
   width: 35px;
+  width: 35px
 }
 
 .button {
@@ -162,6 +172,7 @@ nav {
   transform: translateX(0%);
 }
 
+<<<<<<< HEAD
 /* Restaurant week modal */
 .modal {
   position: relative;
@@ -212,6 +223,10 @@ nav {
   display: inline-block;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6225f894af546081ba801cbf16ecab1ccdc3bc66
 .bold {
   font-size: 20px;
   color: #33383b;
@@ -473,6 +488,7 @@ footer {
   -ms-animation: fadeIn ease 4s;
 }
 
+
 @keyframes zoomIn {
   0% {
     transform: scale(0);
@@ -686,6 +702,8 @@ footer {
     border: none;
     text-align: center;
   }
+
+
 }
 
 @media only screen and (min-width: 1024px) {
@@ -696,6 +714,7 @@ footer {
     min-height: 2vh;
   }
 
+  
   .logo > img {
     width: 100px;
   }
