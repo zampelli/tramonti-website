@@ -9,11 +9,8 @@ const closeBtnLogIn = document.querySelector('.close-log-in');
 const editBtn = document.querySelector('.edit');
 const hide = document.querySelector('.hide');
 const show = document.querySelector('.show');
-<<<<<<< HEAD
 const flyer = document.querySelector('.modal');
 
-=======
->>>>>>> 6225f894af546081ba801cbf16ecab1ccdc3bc66
 
 function openModal() {
   modal.style.display = 'block';
