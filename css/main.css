@@ -704,6 +704,7 @@ footer {
   
   .logo > img {
     width: 100px;
+   z-index: 1000;
   }
 
   .nav-links {
