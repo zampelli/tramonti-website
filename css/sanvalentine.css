@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: auto !important;
+  min-height: 100vh;
+}
+
+.capitalize {
+  text-transform: uppercase !important;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #d41e27;
+}
+
+.price {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: #2b2929;
+  font-weight: 800;
+}
+
+.valentine {
+  margin-top: 30px;
+  font-family: "Great vibes", cursive;
+  font-size: 2.6rem;
+  color: #e9121d;
+}
+
+.red {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 12px;
+  color: #e9121d;
+  font-weight: 800;
+}
+
+.buttons{
+  margin-top: 40px;
+  
+}
+
+button {
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+}
+
+.off {
+  display: none;
+}
+
+.on {
+  display: block;
+}
+
+.active {
+  background: green;
+  color: #ffff;
+}
+
+.menu-type {
+  margin-top: 40px;
+  font-family: "Great vibes", cursive;
+  font-size: 2.6rem;
+  margin-bottom: 26px;
+}
+
+.cursive > h3 {
+  margin-top: 26px;
+  font-family: "Alef", sans-serif;
+}
+
+.one {
+  color: #783314;
+}
+
+.two {
+  color: #1d4175;
+}
+
+.three {
+  color: #324c23;
+}
+
+span {
+  text-transform: lowercase !important;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  width: 500px;
+  line-height: 1.4;
+  font-weight: 600;
+  color: #383838;
+  display: inline-block;
+}
+
+
+@media only screen and (max-width: 720px) {
+  .container {
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+
+  .title {
+    font-size: 1.8rem;
+    width: 300px;
+    display: inline-block;
+  }
+  
+  .cursive > h3 {
+    font-size: 1.1rem;
+    width: 350px;
+    display: inline-block;
+  }
+
+  p {
+    width: 350px;
+    font-size: 0.9rem;
+  }
+
+}
