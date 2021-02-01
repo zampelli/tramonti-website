@@ -40,9 +40,8 @@ body {
   font-weight: 800;
 }
 
-.buttons{
+.buttons {
   margin-top: 40px;
-  
 }
 
 button {
@@ -52,6 +51,11 @@ button {
   display: inline-block;
   font-size: 16px;
   border: none;
+  cursor: pointer;
+  box-shadow: 1px 4px 63px 1px rgba(212,212,212,0.37);
+  -webkit-box-shadow: 1px 4px 63px 1px rgba(212,212,212,0.37);
+  -moz-box-shadow: 1px 4px 63px 1px rgba(212,212,212,0.37);
+  outline: none;
 }
 
 .off {
@@ -104,7 +108,6 @@ p {
   display: inline-block;
 }
 
-
 @media only screen and (max-width: 720px) {
   .container {
     margin-top: 40px;
@@ -116,7 +119,7 @@ p {
     width: 300px;
     display: inline-block;
   }
-  
+
   .cursive > h3 {
     font-size: 1.1rem;
     width: 350px;
@@ -127,5 +130,4 @@ p {
     width: 350px;
     font-size: 0.9rem;
   }
-
 }
