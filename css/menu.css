@@ -454,12 +454,21 @@ nav {
   display: none;
 }
 
+.desser-pdf {
+  display: none;
+}
+
 .dinner-pdf > iframe {
   position: absolute;
   width: 100%;
 }
 
 .drink-pdf > iframe {
+  position: absolute;
+  width: 100%;
+}
+
+.dessert-pdf > iframe {
   position: absolute;
   width: 100%;
 }
@@ -474,7 +483,20 @@ nav {
   right: 0;
   margin: 1rem;
   z-index: 100;
-  background: blue;
+}
+.close-btn2 {
+  position: absolute;
+  width: 30px;
+  right: 0;
+  margin: 1rem;
+  z-index: 100;
+}
+.close-btn3 {
+  position: absolute;
+  width: 30px;
+  right: 0;
+  margin: 1rem;
+  z-index: 100;
 }
 
 /* Footer */
