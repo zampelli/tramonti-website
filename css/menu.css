@@ -138,7 +138,7 @@ nav {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
-  outline:none;
+  outline: none;
 }
 
 .logo img {
@@ -273,7 +273,7 @@ nav {
   padding: 0 10px;
 }
 
- .lg {
+.lg {
   width: 53px;
 }
 
@@ -292,7 +292,7 @@ nav {
 
 .editable {
   margin-top: -80px;
-} 
+}
 
 .text-content {
   margin-top: 60px;
@@ -442,11 +442,24 @@ nav {
 }
 
 /* PDF modal */
+.pdf {
+  display: none;
+}
+
 .dinner-pdf {
   display: none;
 }
 
-.dinner-pdf > iframe{
+.drink-pdf {
+  display: none;
+}
+
+.dinner-pdf > iframe {
+  position: absolute;
+  width: 100%;
+}
+
+.drink-pdf > iframe {
   position: absolute;
   width: 100%;
 }
@@ -455,7 +468,7 @@ nav {
   position: relative;
 }
 
- .close-btn {
+.close-btn {
   position: absolute;
   width: 30px;
   right: 0;
