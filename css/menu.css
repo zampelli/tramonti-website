@@ -388,7 +388,7 @@ nav {
 }
 
 .dinner-pdf {
-  display: block;
+  display: none;
 }
 
 .dinner-pdf > iframe{
