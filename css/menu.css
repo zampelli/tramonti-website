@@ -387,15 +387,6 @@ nav {
   margin: 28px 0;
 }
 
-.dinner-pdf {
-  display: none;
-}
-
-.dinner-pdf > iframe{
-  position: absolute;
-  width: 100%;
-}
-
 .dinner-btn {
   background-color: #d2722f;
   border: none;
@@ -448,6 +439,28 @@ nav {
   cursor: pointer;
   outline: none;
   box-shadow: -2px 4px 12px 0px rgba(105, 105, 105, 0.32);
+}
+
+/* PDF modal */
+.dinner-pdf {
+  display: none;
+}
+
+.dinner-pdf > iframe{
+  position: absolute;
+  width: 100%;
+}
+
+.exit {
+  position: relative;
+}
+
+ .close-btn {
+  position: absolute;
+  width: 30px;
+  right: 0;
+  margin: 1rem;
+  z-index: 100;
 }
 
 /* Footer */
