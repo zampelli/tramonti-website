@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Great+Vibes|Montserrat:400,500|Roboto:400,700&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Alef|Signika&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Foont awesome -->
+    <script defer type="text/javascript">
+      (function () {
+        var css = document.createElement("link");
+        css.href = "https://use.fontawesome.com/releases/v5.1.0/css/all.css";
+        css.rel = "stylesheet";
+        css.type = "text/css";
+        document.getElementsByTagName("head")[0].appendChild(css);
+      })();
+    </script>
+    <!-- Css stylesheet -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <link rel="stylesheet" href="/css/menu.css?v1.07" />
+    <link rel="stylesheet" href="/css/modal.css?v1.06" />
+
+    <title>Tramonti</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="/index.html#home"
+          ><img src="/img/navBarTramontiLogo.svg" alt=""
+        /></a>
+      </div>
+      <ul class="nav-links">
+        <li class="hide-mobile"><a href="/index.html">Home</a></li>
+        <li class="hide-mobile"><a href="/wine-list.html">Wine List</a></li>
+        <li class="hide-mobile"><a href="/index.html#about">About</a></li>
+        <li class="hide-desktop top">
+          <a href="/menu.html"
+            ><button class="nav-btn">Restaurant Menu</button></a
+          >
+        </li>
+
+        <!-- <li class="hide-desktop">
+          <a href="https://www.santacruzdeliveries.com/en/store/tramontisantacruz/417790"
+            ><button class="nav-btn">Order delivery</button></a
+          >
+        </li> -->
+
+        <li class="hide-desktop">
+          <a href="/wine-list.html"
+            ><button class="nav-btn-p">Wine List</button></a
+          >
+        </li>
+        <!-- <li class="hide-desktop hide-mobile">
+          <a href="mailto:info@tramontisantacruz.com">Contact</a>
+        </li> -->
+        <li>
+          <a href="https://www.facebook.com/tramontisantacruz"
+            ><i class="fac fab fa-facebook-f i"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/tramonti_santacruz/"
+            ><i class="insta fab fa-instagram i"></i
+          ></a>
+        </li>
+        <a class="hide-desktop" href="tel:831 426 7248"
+          ><li><img class="icon-mob" src="img/call icon.svg" alt="Call" /></li
+        ></a>
+
+        <li class="hide-mobile">
+          <a href="https://goo.gl/maps/stg311yP5R26osiU8"
+            ><i class="map fas fa-map-marker-alt i"></i
+          ></a>
+        </li>
+        <li><i class="hide-mobile edit far fa-edit"></i></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <div class="hide modal-log modal-log-in">
+      <span class="close-log-in"><i class="fas fa-times"></i></span>
+      <div class="pops-up">
+        <span class="log-in-pop">You are logged in!</span>
+      </div>
+      <h1>Log In</h1>
+      <div class="log-in">
+        <form autocomplete="off" id="log-in">
+          <div class="input-field">
+            <input
+              type="email"
+              id="login-email"
+              placeholder="Username"
+              required
+            />
+            <label for="login-email"></label>
+          </div>
+          <div class="input-field">
+            <input
+              type="password"
+              id="login-password"
+              placeholder="password"
+              required
+            />
+            <label for="login-password"></label>
+          </div>
+          <button class="btn">Login</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Section for buttons that showws menu pdf style -->
+    <section class="pdfmenu">
+      <div class="container">
+        <div class="dinner">
+          <button class="dinner-btn">Dinner Menu</button>
+        </div>
+        <div class="drink">
+          <button class="drink-btn">Drink Menu</button>
+        </div>
+        <div class="dessert">
+          <button class="dessert-btn">Dessert Menu</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="dinner-pdf">
+      <iframe
+        src="/PDF/dinner-menu.pdf#toolbar=0&navpanes=0&scrollbar=0"
+        frameborder="0"
+        scrolling="none"
+        height="100%"
+        width="100%"
+      >
+      </iframe>
+    </div>
+
+    <script src="/js/menu.js"></script>
+    <script src="/js/toggle.js?v=1.01"></script>
+  </body>
+</html>
