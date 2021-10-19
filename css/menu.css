@@ -439,6 +439,25 @@ nav {
   box-shadow: -2px 4px 12px 0px rgba(105, 105, 105, 0.32);
 }
 
+.restaurant-week-btn {
+  background-color: #c41200;
+  margin-top: 24px;
+  border: none;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  width: 200px;
+  height: 40px;
+  padding: 8px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  outline: none;
+  box-shadow: -2px 4px 12px 0px rgba(105, 105, 105, 0.32);
+}
+
 /* PDF modal */
 .pdf {
   display: none;
@@ -456,6 +475,10 @@ nav {
   display: none;
 }
 
+.restaurant-week-pdf {
+  display: none;
+}
+
 .dinner-pdf > iframe {
   position: absolute;
   width: 100%;
@@ -467,6 +490,11 @@ nav {
 }
 
 .dessert-pdf > iframe {
+  position: absolute;
+  width: 100%;
+}
+
+.restaurant-week-pdf > iframe {
   position: absolute;
   width: 100%;
 }
@@ -490,6 +518,13 @@ nav {
   z-index: 100;
 }
 .close-btn3 {
+  position: absolute;
+  width: 30px;
+  right: 0;
+  margin: 1rem;
+  z-index: 100;
+}
+.close-btn4 {
   position: absolute;
   width: 30px;
   right: 0;

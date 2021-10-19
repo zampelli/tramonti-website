@@ -14,7 +14,9 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <!-- Css stylesheet -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="stylesheet" href="/css/main.css?v=1.08">
+  <link rel="stylesheet" href="/css/main.css?v=1.001">
+  
+  
 
   <title>Tramonti</title>
 </head>
@@ -62,27 +64,30 @@
       </div>
       
       <!-- Modal for events information 👇 -->
-       <!-- <div class="modal">
+       <div class="modal">
         <div class="modal-size">
             <img class="close" src="/img/close.svg" alt="">
-          <a href="/sanvalentine.html">
-            <img class="flyer" src="/img/sanValentineFlyerNew.png?Math.random()" alt="san valentine">
+          <a href="/menu.html">
+            <p class="absoluteBtn">Restaurant Week Menu</p>
+            <img class="flyer" src="/images/restaurantWeekFlyer.jpeg" alt="san valentine">
           </a>
         </div>
-      </div> -->
+      </div>
      <!-- ---------- -->
      
     </header>
     <div class='fade'>
-    <p class="inf-one">
-      For reservations or pick-up orders, please call us directly at  <a href="tel:831 426 7248" class="bold">831 426 7248</a>
-    </p>
-    <p class="inf-one">
-      Monday - Friday 12:00 PM - 3:00 PM, 4:00 PM - 9:00 PM
-    </p>
-    <p class="inf-one">
-      Saturday - Sunday 12:00 PM - 9:00 PM
-    </p>
+      <p class="hide-header inf-one">
+        Monday - Friday 12:00 PM - 3:00 PM, 4:00 PM - 9:00 PM   Saturday - Sunday 12:00 PM - 9:00 PM
+      </p>
+      <p class="hide-header inf-one width">For reservations, click below to book online or call us directly at <a href="tel:831-426-7248" class="bold">831-426-7248</a>.</p>
+      <p class="hide-header inf-one">For to-go orders and other inquiries, please call us directly. Grazie!</p>
+      <a href="https://www.yelp.com/reservations/tramonti-santa-cruz">
+        <button class="yelp-btn">
+        <i class="fab fa-yelp"></i> 
+        Reserve your table now!
+      </button>
+    </a>
   </div>
   </section>
   
@@ -175,6 +180,7 @@
 });
 </script>
 <script src="/js/app.js?v=1.04"></script> 
+<script src="/js/flyer.js"></script>
 </body>
 
 </html>

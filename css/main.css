@@ -10,10 +10,9 @@ body {
   background: #fdf9f2;
 }
 
-.capitalize{
+.capitalize {
   text-transform: uppercase !important;
 }
-
 
 .wrapper {
   overflow-x: hidden !important;
@@ -52,7 +51,7 @@ nav {
 }
 
 .nav-btn {
-  background-color: #D2722F; 
+  background-color: #d2722f;
   border: none;
   border-radius: 16px;
   color: rgb(248, 248, 248);
@@ -96,7 +95,7 @@ nav {
 
 .nav-links a .icon-mob {
   width: 35px;
-  width: 35px
+  width: 35px;
 }
 
 .button {
@@ -112,6 +111,32 @@ nav {
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
   outline: none;
+}
+
+.fade {
+  display: inline-block;
+  margin-top: -80px;
+}
+
+.yelp-btn {
+  position: relative;
+  width: 280px;
+  background-color: #c41200;
+  border: none;
+  border-radius: 16px;
+  color: rgb(248, 248, 248);
+  padding: 12px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  outline: none;
+}
+
+.fa-yelp {
+  margin-right: 8px;
 }
 
 .fac:hover {
@@ -160,11 +185,30 @@ nav {
   transform: translateX(0%);
 }
 
-
 /* Restaurant week modal */
+.absoluteBtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 240px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 16px;
+  color: rgb(29, 29, 29);
+  padding: 12px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  outline: none;
+  box-shadow: -2px 4px 12px 0px rgba(105, 105, 105, 0.32);
+}
+
 .modal {
   position: relative;
-  display: none;
   transform: scale(0);
   animation: zoomIn 0.4s 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
@@ -198,7 +242,7 @@ nav {
   margin-top: -50px;
 }
 
-.fade {
+.hide-header {
   visibility: hidden;
 }
 
@@ -206,7 +250,6 @@ nav {
   font-family: "montserrat", sans-serif;
   margin-top: 0px;
   color: rgb(131, 131, 131);
-  font-style: italic;
   width: 100%;
   display: inline-block;
 }
@@ -472,7 +515,6 @@ footer {
   -ms-animation: fadeIn ease 4s;
 }
 
-
 @keyframes zoomIn {
   0% {
     transform: scale(0);
@@ -567,10 +609,16 @@ footer {
 @media (max-width: 360px) {
   #bm {
     width: 240px !important;
-    /* margin-top: -50px */
+    margin-top: 150px
   }
   .icons {
-    margin-top: 20px;
+    margin-top: -20px;
+  }
+  .yelp-btn {
+    width: 256px;
+  }
+  .fade {
+    margin-top: -80px;
   }
   /* .sectionOne{
     margin-top: 220px;
@@ -589,6 +637,9 @@ footer {
     /* margin-top: 180px; */
     height: 100%;
   }
+  .modal {
+    margin-top: 200px;
+  }
 }
 
 @media only screen and (min-height: 600px) and (max-height: 680px) {
@@ -599,8 +650,11 @@ footer {
 
 @media only screen and (min-width: 375px) {
   #bm {
-    margin-top: 40px;
+    margin-top: -24px;
     width: 340px;
+  }
+  .fade {
+    padding-bottom: 20px;
   }
   .icon-mob {
     margin-top: -10px;
@@ -647,10 +701,18 @@ footer {
       } */
 
   .fade {
-    width: 60%;
+    margin-top: 10px;
+  }
+
+  .hide-header {
+    display: inline-block;
     line-height: 1.8;
-    margin-top: 40px;
+    margin-top: 0px;
     visibility: visible;
+  }
+
+  .yelp-btn {
+    margin: 20px;
   }
 
   section {
@@ -686,8 +748,6 @@ footer {
     border: none;
     text-align: center;
   }
-
-
 }
 
 @media only screen and (min-width: 1024px) {
@@ -698,10 +758,9 @@ footer {
     min-height: 2vh;
   }
 
-  
   .logo > img {
     width: 100px;
-   z-index: 1000;
+    z-index: 1000;
   }
 
   .nav-links {

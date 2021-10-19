@@ -25,7 +25,7 @@
     </script>
     <!-- Css stylesheet -->
     <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
-    <link rel="stylesheet" href="/css/menu.css?v1.10" />
+    <link rel="stylesheet" href="/css/menu.css?v1.11" />
 
     <title>Tramonti</title>
   </head>
@@ -116,6 +116,9 @@
         <div class="dessert">
           <button class="dessert-btn">Dessert Menu</button>
         </div>
+        <div class="event">
+          <button class="restaurant-week-btn">Restaurant Week</button>
+        </div>
       </div>
     </section>
 
@@ -124,7 +127,7 @@
             <img class="close-btn" src="/img/close.svg" alt="">
         </div>
       <iframe 
-        src="/PDF/dinner-menu.pdf#toolbar=0&navpanes=0&scrollbar=0"
+        src="/PDF/dinner-menu-new.pdf#toolbar=0&navpanes=0&scrollbar=0"
         frameborder="0"
         scrolling="none"
         height="100%"
@@ -161,6 +164,20 @@
       </iframe>
     </div>
 
-    <script src="/js/menu.js?v=1.03"></script>
+    <div class="restaurant-week-pdf">
+      <div class="exit">
+          <img class="close-btn4" src="/img/close.svg" alt="">
+      </div>
+    <iframe 
+      src="/PDF/TramontiRestaurantWeek2021.pdf#toolbar=0&navpanes=0&scrollbar=0"
+      frameborder="0"
+      scrolling="none"
+      height="100%"
+      width="100%"
+    >
+    </iframe>
+  </div>
+
+    <script src="/js/menu.js?v=1.04"></script>
   </body>
 </html>
