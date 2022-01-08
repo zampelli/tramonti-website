@@ -24,9 +24,9 @@ dessertBtn.addEventListener("click", () => {
     dessertPDF.style.display = "block";
 });
 
-restaurantWeekBtn.addEventListener("click", () => {
-  restaurantWeekPDF.style.display = "block";
-})
+// restaurantWeekBtn.addEventListener("click", () => {
+//   restaurantWeekPDF.style.display = "block";
+// })
 
 closeDinnerPDF.addEventListener("click", () => {
   dinnerPDF.style.display = "none";
